@@ -46,19 +46,19 @@ img { max-width:100%; display:block; }
   position:relative; isolation:isolate; overflow:hidden;
   background:
     radial-gradient(circle at 18% 45%, rgba(255,255,255,.14), transparent 24%),
-    linear-gradient(90deg, rgba(27,53,102,.35) 0%, rgba(46,66,122,.62) 36%, rgba(46,66,122,.88) 100%),
+    linear-gradient(90deg, rgba(27,53,102,.50) 0%, rgba(46,66,122,.74) 36%, rgba(46,66,122,.94) 100%),
     var(--leaf-landscape) left center / cover no-repeat,
     var(--paper-blue);
 }
 .pdf-bg::before {
   content:""; position:absolute; inset:0; z-index:0;
   background: var(--leaf-landscape) left center / cover no-repeat;
-  opacity:.36; mix-blend-mode:screen; filter:contrast(1.05) brightness(1.08);
+  opacity:.28; mix-blend-mode:screen; filter:contrast(1.02) brightness(1.00);
   pointer-events:none;
 }
 .pdf-bg::after {
   content:""; position:absolute; inset:0; z-index:0;
-  background:linear-gradient(90deg,rgba(11,34,72,.24) 0%, rgba(46,66,122,.10) 42%, rgba(46,66,122,.27) 100%);
+  background:linear-gradient(90deg,rgba(11,34,72,.36) 0%, rgba(46,66,122,.22) 42%, rgba(46,66,122,.39) 100%);
   pointer-events:none;
 }
 .pdf-bg>* { position:relative; z-index:1; }
@@ -117,11 +117,11 @@ img { max-width:100%; display:block; }
   .pdf-bg {
     background:
       radial-gradient(circle at 24% 30%, rgba(255,255,255,.13), transparent 26%),
-      linear-gradient(90deg, rgba(30,56,105,.34), rgba(46,66,122,.86)),
+      linear-gradient(90deg, rgba(30,56,105,.40), rgba(46,66,122,.89)),
       var(--leaf-portrait) center top / cover no-repeat,
       var(--paper-blue);
   }
-  .pdf-bg::before { background-image:var(--leaf-portrait); background-position:center top; opacity:.38; }
+  .pdf-bg::before { background-image:var(--leaf-portrait); background-position:center top; opacity:.34; }
   .title-lockup { grid-template-columns:minmax(0,1.06fr) minmax(0,.94fr); gap:5.4%; }
   .poem { font-size:clamp(22px,5.2vw,46px); line-height:1.14; white-space:normal; }
   .main-title { font-size:clamp(46px,11vw,98px); line-height:.84; }

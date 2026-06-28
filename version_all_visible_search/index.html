@@ -46,19 +46,19 @@ img { max-width:100%; display:block; }
   position:relative; isolation:isolate; overflow:hidden;
   background:
     radial-gradient(circle at 18% 45%, rgba(255,255,255,.14), transparent 24%),
-    linear-gradient(90deg, rgba(27,53,102,.35) 0%, rgba(46,66,122,.62) 36%, rgba(46,66,122,.88) 100%),
+    linear-gradient(90deg, rgba(27,53,102,.40) 0%, rgba(46,66,122,.66) 36%, rgba(46,66,122,.90) 100%),
     var(--leaf-landscape) left center / cover no-repeat,
     var(--paper-blue);
 }
 .pdf-bg::before {
   content:""; position:absolute; inset:0; z-index:0;
   background: var(--leaf-landscape) left center / cover no-repeat;
-  opacity:.36; mix-blend-mode:screen; filter:contrast(1.05) brightness(1.08);
+  opacity:.32; mix-blend-mode:screen; filter:contrast(1.03) brightness(1.04);
   pointer-events:none;
 }
 .pdf-bg::after {
   content:""; position:absolute; inset:0; z-index:0;
-  background:linear-gradient(90deg,rgba(11,34,72,.24) 0%, rgba(46,66,122,.10) 42%, rgba(46,66,122,.27) 100%);
+  background:linear-gradient(90deg,rgba(11,34,72,.28) 0%, rgba(46,66,122,.14) 42%, rgba(46,66,122,.31) 100%);
   pointer-events:none;
 }
 .pdf-bg>* { position:relative; z-index:1; }
@@ -117,11 +117,11 @@ img { max-width:100%; display:block; }
   .pdf-bg {
     background:
       radial-gradient(circle at 24% 30%, rgba(255,255,255,.13), transparent 26%),
-      linear-gradient(90deg, rgba(30,56,105,.34), rgba(46,66,122,.86)),
+      linear-gradient(90deg, rgba(30,56,105,.40), rgba(46,66,122,.89)),
       var(--leaf-portrait) center top / cover no-repeat,
       var(--paper-blue);
   }
-  .pdf-bg::before { background-image:var(--leaf-portrait); background-position:center top; opacity:.38; }
+  .pdf-bg::before { background-image:var(--leaf-portrait); background-position:center top; opacity:.34; }
   .title-lockup { grid-template-columns:minmax(0,1.06fr) minmax(0,.94fr); gap:5.4%; }
   .poem { font-size:clamp(22px,5.2vw,46px); line-height:1.14; white-space:normal; }
   .main-title { font-size:clamp(46px,11vw,98px); line-height:.84; }
@@ -137,18 +137,18 @@ img { max-width:100%; display:block; }
 .all-page{
   min-height:100vh; padding:clamp(32px,4vw,56px) clamp(18px,3.2vw,42px) clamp(58px,6vw,90px);
   background:
-    linear-gradient(90deg, rgba(28,54,105,.20), rgba(46,66,122,.68) 42%, rgba(46,66,122,.90)),
+    linear-gradient(90deg, rgba(28,54,105,.26), rgba(46,66,122,.72) 42%, rgba(46,66,122,.92)),
     var(--leaf-landscape) left top / cover no-repeat,
     var(--paper-blue);
   background-attachment:fixed;
 }
 .all-page::before{
   content:""; position:fixed; inset:0; z-index:0; background:var(--leaf-landscape) left center/cover no-repeat;
-  opacity:.48; filter:contrast(1.08) brightness(1.12); mix-blend-mode:screen; pointer-events:none;
+  opacity:.42; filter:contrast(1.05) brightness(1.06); mix-blend-mode:screen; pointer-events:none;
 }
 .all-page::after{
   content:""; position:fixed; inset:0; z-index:0;
-  background:linear-gradient(90deg, rgba(15,38,76,.08), rgba(46,66,122,.28) 46%, rgba(46,66,122,.52));
+  background:linear-gradient(90deg, rgba(15,38,76,.12), rgba(46,66,122,.32) 46%, rgba(46,66,122,.56));
   pointer-events:none;
 }
 .all-page > *{position:relative;z-index:1;}
@@ -175,11 +175,11 @@ img { max-width:100%; display:block; }
 @media(max-width:860px),(orientation:portrait){
   .all-page{
     background:
-      linear-gradient(90deg, rgba(30,56,105,.18), rgba(46,66,122,.74)),
+      linear-gradient(90deg, rgba(30,56,105,.24), rgba(46,66,122,.78)),
       var(--leaf-portrait) center top/cover no-repeat,
       var(--paper-blue);
   }
-  .all-page::before{background-image:var(--leaf-portrait);background-position:center top;opacity:.48;}
+  .all-page::before{background-image:var(--leaf-portrait);background-position:center top;opacity:.42;}
   .all-hero{width:min(92%,820px);}
   .cards-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 12px;}
   .person-card{min-height:220px;border-radius:24px;padding:15px 10px;}
@@ -211,6 +211,7 @@ img { max-width:100%; display:block; }
       </div>
       <span class="rule" aria-hidden="true"></span>
     </header>
+    <p class="all-intro">כל הנופלות והנופלים מוצגים יחד, בכרטיסים מעוגלים ועדינים על רקע העלה הכחול. ניתן לחפש לפי שם או יישוב, וללחוץ על כל תמונה לפתיחה מוגדלת.</p>
     <div class="cards-grid" id="cardsGrid" aria-label="כל הנופלות והנופלים"></div>
     <div id="emptySearch" class="empty-search">לא נמצאו תוצאות לחיפוש הזה.</div>
   </section>
