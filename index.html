@@ -1,1 +1,147 @@
-<!doctype html><html lang="he" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>רקמה אנושית אחת</title><style>@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700;900&display=swap');body{margin:0;min-height:100vh;display:grid;place-items:center;background:#13213c;color:white;font-family:Heebo,Arial,sans-serif}.box{width:min(92vw,720px);padding:34px;border-radius:28px;background:rgba(255,255,255,.07);box-shadow:0 30px 80px rgba(0,0,0,.3)}h1{font-size:clamp(38px,7vw,76px);line-height:.9;margin:0 0 16px}p{color:rgba(255,255,255,.82);font-size:18px}.links{display:grid;gap:12px;margin-top:24px}a{color:white;text-decoration:none;border:1px solid rgba(255,255,255,.18);border-radius:999px;padding:14px 18px;background:rgba(255,255,255,.08);font-weight:700}</style></head><body><main class="box"><h1>רקמה<br>אנושית אחת</h1><p>בחרי גרסה להצגה ב-GitHub Pages:</p><div class="links"><a href="version_fade_search/">גרסה 1 — תמונות שחור־לבן מתחלפות + חיפוש וכפתורים</a><a href="version_all_visible_search/">גרסה 2 — כל האנשים ברשימה, ללא פייד + חיפוש וכפתורים</a></div></main></body></html>
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>רקמה אנושית אחת — כל האנשים מוצגים</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800;900&display=swap');
+    :root {
+      --bg-landscape:url("assets/leaf-landscape-clean.jpg");
+      --bg-portrait:url("assets/leaf-portrait-clean.jpg");
+      --white:#fbfdff;
+      --paper-blue:#263f78;
+      --line:rgba(0,213,223,.62);
+      --font:"Heebo","Assistant","Noto Sans Hebrew",Arial,sans-serif;
+      --stroke:rgba(248,251,255,.78);
+    }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; min-height:100%; background:#10182b; color:var(--white); font-family:var(--font); overflow-x:hidden; }
+    button,input { font:inherit; color:inherit; }
+    button { cursor:pointer; }
+    .rekama-wrap { width:min(100%,1920px); margin-inline:auto; background:#10182b; }
+    .toolbar { position:sticky; top:0; z-index:50; display:flex; flex-wrap:wrap; gap:10px; align-items:center; justify-content:center; padding:14px 16px; background:rgba(11,22,45,.88); backdrop-filter:blur(10px); border-bottom:1px solid rgba(255,255,255,.08); }
+    .toolbar input { min-width:min(520px,100%); width:min(520px,100%); border:1px solid rgba(255,255,255,.14); background:rgba(255,255,255,.08); border-radius:999px; padding:13px 18px; outline:none; }
+    .toolbar input::placeholder { color:rgba(255,255,255,.72); }
+    .tool-btn { border:1px solid rgba(255,255,255,.14); background:rgba(255,255,255,.08); border-radius:999px; padding:11px 16px; min-width:96px; transition:background .2s ease, transform .2s ease; }
+    .tool-btn:hover,.tool-btn:focus-visible { background:rgba(255,255,255,.14); transform:translateY(-1px); outline:none; }
+    .tool-meta { font-size:14px; color:rgba(255,255,255,.78); }
+
+    .rekama-page {
+      min-height:100vh;
+      background:
+        radial-gradient(circle at 20% 32%, rgba(255,255,255,.10), transparent 20%),
+        linear-gradient(90deg, rgba(32,63,115,.70) 0%, rgba(35,62,120,.90) 43%, rgba(39,62,124,.98) 100%),
+        var(--bg-landscape) left top/cover no-repeat,
+        var(--paper-blue);
+      padding: clamp(28px, 4vw, 48px) clamp(16px, 3vw, 30px) clamp(46px, 5vw, 70px);
+    }
+    .hero-copy { width:min(100%, 860px); margin:0 auto 24px; text-align:center; }
+    .rule { display:block; width:100%; height:1.7px; background:linear-gradient(90deg,transparent,var(--line) 7%,var(--line) 93%,transparent); opacity:.92; }
+    .title-lockup { display:grid; grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr); align-items:center; gap:4.6%; direction:ltr; padding-block:clamp(18px, 2.7vw, 28px); }
+    .poem { direction:rtl; margin:0; font-size:clamp(24px,2.2vw,42px); font-weight:700; line-height:1.16; letter-spacing:-.025em; text-align:right; white-space:nowrap; text-shadow:0 1px 8px rgba(0,0,0,.18); }
+    .main-title { direction:rtl; margin:0; font-size:clamp(58px,5vw,98px); font-weight:900; line-height:.86; letter-spacing:-.052em; text-align:right; text-shadow:0 1px 8px rgba(0,0,0,.16); }
+    .intro { width:min(100%, 940px); margin:18px auto 28px; text-align:center; font-size:clamp(16px,1.12vw,20px); line-height:1.55; color:rgba(255,255,255,.9); }
+
+    .circle-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(165px, 1fr)); gap:28px 22px; align-items:start; }
+    .memory-slot { width:100%; display:grid; justify-items:center; align-content:start; text-decoration:none; direction:rtl; min-width:0; background:transparent; border:0; padding:0; }
+    .photo-holder { width:clamp(128px,8.5vw,166px); aspect-ratio:1/1; border-radius:50%; overflow:hidden; display:grid; place-items:center; background:rgba(25,48,94,.32); box-shadow:0 0 0 clamp(2px,.18vw,4px) var(--stroke), inset -16px 0 28px rgba(255,255,255,.06), inset 18px 0 28px rgba(0,0,0,.08); }
+    .photo-holder img { width:100%; height:100%; display:block; object-fit:contain; object-position:center center; background:rgba(255,255,255,.03); filter:grayscale(1) contrast(1.06); }
+    .slot-name { margin-top:16px; max-width:145%; color:#fff; font-size:clamp(15px,1.02vw,19px); font-weight:700; line-height:1.12; letter-spacing:-.025em; text-align:center; text-wrap:balance; text-shadow:0 1px 7px rgba(0,0,0,.35); }
+    .person-place { display:inline-block; margin-top:8px; padding:4px 10px; border-radius:999px; background:rgba(82,119,201,.28); color:rgba(255,255,255,.92); font-size:13px; }
+    .empty-search { display:none; text-align:center; padding:22px; border-radius:18px; background:rgba(255,255,255,.05); color:rgba(255,255,255,.85); width:min(100%, 560px); margin:20px auto 0; }
+    .empty-search.show { display:block; }
+
+    @media(max-width:860px),(orientation:portrait) {
+      .rekama-page {
+        background:
+          radial-gradient(circle at 24% 24%, rgba(255,255,255,.11), transparent 23%),
+          linear-gradient(90deg, rgba(29,62,115,.66) 0%, rgba(34,62,120,.84) 48%, rgba(40,63,125,.96) 100%),
+          var(--bg-portrait) center top/cover no-repeat,
+          var(--paper-blue);
+      }
+      .title-lockup { grid-template-columns:minmax(0,1.06fr) minmax(0,.94fr); gap:5.4%; }
+      .poem { font-size:clamp(22px,5.2vw,46px); line-height:1.14; white-space:normal; }
+      .main-title { font-size:clamp(46px,11vw,98px); line-height:.84; }
+      .circle-grid { grid-template-columns:repeat(2, minmax(0,1fr)); gap:26px 16px; }
+      .photo-holder { width:clamp(122px,30vw,190px); }
+      .slot-name { font-size:clamp(15px,3.8vw,24px); }
+    }
+    @media(max-width:520px) {
+      .toolbar { justify-content:stretch; }
+      .toolbar input { min-width:100%; }
+      .title-lockup { gap:13px; padding-block:14px; }
+      .poem { font-size:clamp(21px,5.7vw,30px); }
+      .main-title { font-size:clamp(40px,10.8vw,58px); }
+      .circle-grid { grid-template-columns:repeat(2, minmax(0,1fr)); gap:22px 10px; }
+      .photo-holder { width:clamp(102px,28vw,148px); }
+      .slot-name { font-size:clamp(13px,3.8vw,18px); max-width:155%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="rekama-wrap">
+    <div class="toolbar">
+      <input id="searchInput" type="search" placeholder="חיפוש לפי שם או יישוב..." aria-label="חיפוש לפי שם או יישוב">
+      <button id="prevBtn" class="tool-btn" type="button">למעלה</button>
+      <button id="nextBtn" class="tool-btn" type="button">למטה</button>
+      <span id="countStatus" class="tool-meta"></span>
+    </div>
+
+    <section class="rekama-page" aria-label="רקמה אנושית אחת">
+      <header class="hero-copy">
+        <span class="rule" aria-hidden="true"></span>
+        <div class="title-lockup">
+          <p class="poem">וְאִם אֶחָד מֵאִתָּנוּ<br>הוֹלֵךְ מֵעִמָּנוּ<br>מַשֶּׁהוּ מֵת בָּנוּ<br>וּמַשֶּׁהוּ נִשְׁאָר אִתּוֹ.</p>
+          <h1 class="main-title">רקמה<br>אנושית<br>אחת</h1>
+        </div>
+        <span class="rule" aria-hidden="true"></span>
+      </header>
+
+      <p class="intro">בגרסה זו כל האנשים מוצגים תמיד על המסך, בעיגולים כמו הכרטיסים העליונים, עם התמונות בשחור־לבן. שורת החיפוש מסננת את התצוגה, וכפתורי למעלה/למטה עוזרים בניווט בדף.</p>
+
+      <div class="circle-grid" id="allPeopleGrid" aria-label="כל הנופלות והנופלים"></div>
+      <div id="emptySearch" class="empty-search">לא נמצאו תוצאות לחיפוש הזה.</div>
+    </section>
+  </div>
+
+  <script>
+    const people = [{"id": "p001", "name": "אביאני שחר ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-001.jpg"}, {"id": "p002", "name": "אדמוני גיא ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-002.jpg"}, {"id": "p003", "name": "אדמוני מיכל ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-003.jpg"}, {"id": "p004", "name": "אדרי אביעד ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-004.jpg"}, {"id": "p005", "name": "אורגד אליהו ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-005.jpg"}, {"id": "p006", "name": "אילון טל ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-006.jpg"}, {"id": "p007", "name": "איתמרי לילי ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-007.jpg"}, {"id": "p008", "name": "איתמרי רם ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-008.jpg"}, {"id": "p009", "name": "אליקים נעם ז\"ל", "place": "נחל עוז", "image": "assets/people-original/person-009.jpg"}, {"id": "p010", "name": "אלקבץ סיון ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-010.jpg"}, {"id": "p011", "name": "אמיר מרדכי (מודי) ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-011.jpg"}, {"id": "p012", "name": "אפשטין בלהה ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-012.jpg"}, {"id": "p013", "name": "אפשטין נטע ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-013.jpg"}, {"id": "p014", "name": "בדיצ'סקי הדר ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-014.jpg"}, {"id": "p015", "name": "בויום יובל ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-015.jpg"}, {"id": "p016", "name": "בן דוד מאיה ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-016.jpg"}, {"id": "p017", "name": "ברגשטיין שחף ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-017.jpg"}, {"id": "p018", "name": "ברדיצ'סקי איתי ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-018.jpg"}, {"id": "p019", "name": "ברוש שושנה ז\"ל", "place": "נחל עוז", "image": "assets/people-original/person-019.jpg"}, {"id": "p020", "name": "ברעם אביב ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-020.jpg"}, {"id": "p021", "name": "גולדשטיין ים ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-021.jpg"}, {"id": "p022", "name": "גולדשטיין נדב ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-022.jpg"}, {"id": "p023", "name": "גורן ארן ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-023.jpg"}, {"id": "p024", "name": "גורן טובה ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-024.jpg"}, {"id": "p025", "name": "גלסקי יבגני ז\"ל", "place": "ארז", "image": "assets/people-original/person-025.jpg"}, {"id": "p026", "name": "דגני נעמי ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-026.jpg"}, {"id": "p027", "name": "דוידוביץ שלומי ז\"ל", "place": "גבים", "image": "assets/people-original/person-027.jpg"}, {"id": "p028", "name": "הנדי אבי ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-028.jpg"}, {"id": "p029", "name": "וינר יהב ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-029.jpg"}, {"id": "p030", "name": "ורטהיים אביב ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-030.jpg"}, {"id": "p031", "name": "ורטהיים דורית ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-031.jpg"}, {"id": "p032", "name": "זוהר יניב ז\"ל", "place": "נחל עוז", "image": "assets/people-original/person-032.jpg"}, {"id": "p033", "name": "זוהר יסמין ז\"ל", "place": "נחל עוז", "image": "assets/people-original/person-033.jpg"}, {"id": "p034", "name": "זוהר קשת ז\"ל", "place": "נחל עוז", "image": "assets/people-original/person-034.jpg"}, {"id": "p035", "name": "זוהר תכלת ז\"ל", "place": "נחל עוז", "image": "assets/people-original/person-035.jpg"}, {"id": "p036", "name": "זיו איתן ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-036.jpg"}, {"id": "p037", "name": "זיו פלג תמי ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-037.jpg"}, {"id": "p038", "name": "זיני ניראל ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-038.jpg"}, {"id": "p039", "name": "חג'בי אליצור צוריאל ז\"ל", "place": "יכיני", "image": "assets/people-original/person-039.jpg"}, {"id": "p040", "name": "חג'בי זיו ז\"ל", "place": "גבים", "image": "assets/people-original/person-040.jpg"}, {"id": "p041", "name": "חג'בי יהונתן ז\"ל", "place": "יכיני", "image": "assets/people-original/person-041.jpg"}, {"id": "p042", "name": "חג'בי יזהר ז\"ל", "place": "יכיני", "image": "assets/people-original/person-043.jpg"}, {"id": "p043", "name": "חיים יותם ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-044.jpg"}, {"id": "p044", "name": "חסידים נאור ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-045.jpg"}, {"id": "p045", "name": "חרמש עומר ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-046.jpg"}, {"id": "p046", "name": "ליבנה חיים ז\"ל", "place": "נחל עוז", "image": "assets/people-original/person-047.jpg"}, {"id": "p047", "name": "ליבשטיין אופיר ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-048.jpg"}, {"id": "p048", "name": "ליבשטיין ניצן ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-049.jpg"}, {"id": "p049", "name": "מולל ג'ושוע לואיטו ז\"ל", "place": "נחל עוז", "image": "assets/people-original/person-050.jpg"}, {"id": "p050", "name": "נעים אמיר ז\"ל", "place": "ארז", "image": "assets/people-original/person-051.jpg"}, {"id": "p051", "name": "סלאם פלג ז\"ל", "place": "יכיני", "image": "assets/people-original/person-052.jpg"}, {"id": "p052", "name": "סלומון יובל ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-053.jpg"}, {"id": "p053", "name": "עידן מעיין ז\"ל", "place": "נחל עוז", "image": "assets/people-original/person-054.jpg"}, {"id": "p054", "name": "עידן סמדר ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-055.jpg"}, {"id": "p055", "name": "עידן צחי ז\"ל", "place": "נחל עוז", "image": "assets/people-original/person-056.jpg"}, {"id": "p056", "name": "עידן רועי ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-057.jpg"}, {"id": "p057", "name": "עמיקם נדב ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-058.jpg"}, {"id": "p058", "name": "ערבה אליעז תומר ז\"ל", "place": "נחל עוז", "image": "assets/people-original/person-059.jpg"}, {"id": "p059", "name": "ערבה דקלה ז\"ל", "place": "נחל עוז", "image": "assets/people-original/person-060.jpg"}, {"id": "p060", "name": "פוסלושני רן ז\"ל", "place": "נחל עוז", "image": "assets/people-original/person-061.jpg"}, {"id": "p061", "name": "פיורנטינו אילן ז\"ל", "place": "נחל עוז", "image": "assets/people-original/person-062.jpg"}, {"id": "p062", "name": "פלד גילה ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-063.jpg"}, {"id": "p063", "name": "פלד דניאל ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-064.jpg"}, {"id": "p064", "name": "פלד יזהר ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-065.jpg"}, {"id": "p065", "name": "פלש יגאל ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-066.jpg"}, {"id": "p066", "name": "פלש סינתיה תמר ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-067.jpg"}, {"id": "p067", "name": "פנסה ארד סומקואן ז\"ל", "place": "נחל עוז", "image": "assets/people-original/person-068.jpg"}, {"id": "p068", "name": "צדיקביץ' עומר ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-069.jpg"}, {"id": "p069", "name": "קוץ אביב ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-070.jpg"}, {"id": "p070", "name": "קוץ יונתן ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-071.jpg"}, {"id": "p071", "name": "קוץ יפתח ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-072.jpg"}, {"id": "p072", "name": "קוץ ליבנת ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-073.jpg"}, {"id": "p073", "name": "קוץ רותם ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-074.jpg"}, {"id": "p074", "name": "קציר דוד ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-075.jpg"}, {"id": "p075", "name": "רביב ניב ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-076.jpg"}, {"id": "p076", "name": "רון שלמה צבי ז\"ל", "place": "נחל עוז", "image": "assets/people-original/person-077.jpg"}, {"id": "p077", "name": "רונן נירה ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-078.jpg"}, {"id": "p078", "name": "רוסו אורי שמעון ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-079.jpg"}, {"id": "p079", "name": "רייכנשטיין אליהו ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-080.jpg"}, {"id": "p080", "name": "שוורצמן אלברטו דוד ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-081.jpg"}, {"id": "p081", "name": "שוורצמן פינקו אורלי ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-082.jpg"}, {"id": "p082", "name": "שושני אופיר ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-083.jpg"}, {"id": "p083", "name": "שטהל מירה ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-084.jpg"}, {"id": "p084", "name": "שמריז אלון ז\"ל", "place": "כפר עזה", "image": "assets/people-original/person-085.jpg"}, {"id": "p085", "name": "שפירא זיו פפה ז\"ל", "place": "ניר עם", "image": "assets/people-original/person-086.jpg"}];
+    const searchInput = document.getElementById('searchInput');
+    const allPeopleGrid = document.getElementById('allPeopleGrid');
+    const emptySearch = document.getElementById('emptySearch');
+    const countStatus = document.getElementById('countStatus');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+
+    function makeCard(person) {
+      const card = document.createElement('article');
+      card.className = 'memory-slot';
+      card.innerHTML = `
+        <span class="photo-holder"><img src="${person.image}" alt="${person.name}"></span>
+        <span class="slot-name">${person.name}<span class="person-place">${person.place}</span></span>`;
+      return card;
+    }
+
+    function render() {
+      const q = searchInput.value.trim();
+      const filtered = people.filter(person => !q || `${person.name} ${person.place}`.includes(q));
+      allPeopleGrid.innerHTML = '';
+      if (!filtered.length) {
+        emptySearch.classList.add('show');
+        countStatus.textContent = '0 תוצאות';
+        return;
+      }
+      emptySearch.classList.remove('show');
+      filtered.forEach(person => allPeopleGrid.appendChild(makeCard(person)));
+      countStatus.textContent = `${filtered.length} מתוך ${people.length}`;
+    }
+
+    searchInput.addEventListener('input', render);
+    prevBtn.addEventListener('click', () => window.scrollBy({ top: -window.innerHeight * 0.82, behavior: 'smooth' }));
+    nextBtn.addEventListener('click', () => window.scrollBy({ top: window.innerHeight * 0.82, behavior: 'smooth' }));
+    render();
+  </script>
+</body>
+</html>
