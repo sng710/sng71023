@@ -1,7 +1,12 @@
-GitHub Pages package — PDF-like corrected version
+Changed files only.
 
-Folders:
-- version_fade_search: PDF-like background, fading/rotating hero, search, previous/next, clickable images.
-- version_all_visible_search: PDF-like leaf background, title above all, all people visible in circular cards, search, up/down buttons, clickable images.
+This patch includes:
+- version_fade_search/index.html
+- version_all_visible_search/index.html
+- the leaf background files needed by both versions:
+  assets/leaf-landscape-clean.jpg
+  assets/leaf-portrait-clean.jpg
+- image_manifest.csv
 
-Image/name mapping was corrected using the older reference data file.
+Upload/copy these over the existing GitHub Pages folders, keeping the same folder structure.
+The people images folder does not need to be re-uploaded if it is already on GitHub.
