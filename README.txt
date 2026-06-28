@@ -1,12 +1,7 @@
-GitHub Pages-ready package
+GitHub Pages package — PDF-like corrected version
 
-Included:
-- index.html landing page linking to both versions
-- version_fade_search/index.html
-- version_all_visible_search/index.html
-- all uploaded images from people-original.zip copied into each version under assets/people-original
+Folders:
+- version_fade_search: PDF-like background, fading/rotating hero, search, previous/next, clickable images.
+- version_all_visible_search: PDF-like leaf background, title above all, all people visible in circular cards, search, up/down buttons, clickable images.
 
-People count: 85
-Image count used: 85
-
-Mapping: images are assigned in the order of the provided name list to the sorted uploaded files.
+Image/name mapping was corrected using the older reference data file.
