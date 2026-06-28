@@ -19,18 +19,21 @@
 html { scroll-behavior:smooth; }
 body {
   margin:0; min-height:100%; background:var(--paper-blue); color:var(--white);
-  font-family:var(--font); overflow-x:hidden; font-weight:300;
+  font-family:var(--font); overflow-x:hidden; font-weight:300; padding-bottom:128px;
 }
 button,input { font:inherit; color:inherit; }
 button { cursor:pointer; }
 img { max-width:100%; display:block; }
 .rekama-wrap { width:min(100%,1920px); margin-inline:auto; background:var(--paper-blue); }
 .toolbar {
-  position:sticky; top:0; z-index:80; display:flex; flex-wrap:wrap; gap:10px; align-items:center; justify-content:center;
-  padding:14px 16px; background:rgba(14,28,58,.88); backdrop-filter:blur(10px); border-bottom:1px solid rgba(255,255,255,.09);
+  position:fixed; left:50%; bottom:max(12px, env(safe-area-inset-bottom)); transform:translateX(-50%);
+  z-index:120; display:flex; flex-wrap:wrap; gap:10px; align-items:center; justify-content:center;
+  width:min(92vw, 860px); padding:14px 16px; border-radius:26px;
+  background:rgba(14,28,58,.82); backdrop-filter:blur(14px); border:1px solid rgba(255,255,255,.10);
+  box-shadow:0 16px 42px rgba(0,0,0,.28);
 }
 .toolbar input {
-  min-width:min(520px,100%); width:min(520px,100%); border:1px solid rgba(255,255,255,.18);
+  min-width:min(420px,100%); width:min(420px,100%); border:1px solid rgba(255,255,255,.18);
   background:rgba(255,255,255,.09); border-radius:999px; padding:13px 18px; outline:none;
 }
 .toolbar input::placeholder { color:rgba(255,255,255,.72); }
@@ -40,6 +43,7 @@ img { max-width:100%; display:block; }
   transition:background .2s ease,transform .2s ease;
 }
 .tool-btn:hover,.tool-btn:focus-visible { background:rgba(255,255,255,.15); transform:translateY(-1px); outline:none; }
+.tool-btn,.tool-meta { flex:0 0 auto; }
 .tool-meta { font-size:14px; color:rgba(255,255,255,.80); }
 
 .pdf-bg {
@@ -91,6 +95,10 @@ img { max-width:100%; display:block; }
 }
 .memory-slot.is-fading .photo-holder,.memory-slot.is-fading .slot-name { opacity:.12; transform:scale(.96); filter:blur(.35px); }
 .memory-slot:focus-visible { outline:3px solid rgba(128,225,245,.95); outline-offset:8px; border-radius:22px; }
+.memory-slot.is-featured{z-index:3;}
+.memory-slot.is-featured .photo-holder{transform:scale(1.17) translateY(-7px);box-shadow:0 0 0 clamp(2px,.16vw,4px) var(--stroke),0 18px 34px rgba(0,0,0,.32), inset -16px 0 28px rgba(255,255,255,.10), inset 18px 0 28px rgba(0,0,0,.10);}
+.memory-slot.is-featured .slot-name{transform:translateY(-4px) scale(1.04);text-shadow:0 2px 12px rgba(0,0,0,.5);}
+.memory-slot .slot-name{transition:opacity .9s ease,transform .9s ease,filter .9s ease;}
 
 .lightbox { position:fixed; inset:0; z-index:999; display:none; place-items:center; padding:22px; }
 .lightbox.is-open { display:grid; }
@@ -125,8 +133,8 @@ img { max-width:100%; display:block; }
   .title-lockup { grid-template-columns:minmax(0,1.06fr) minmax(0,.94fr); gap:5.4%; }
   .poem { font-size:clamp(22px,5.2vw,46px); line-height:1.14; white-space:normal; }
   .main-title { font-size:clamp(46px,11vw,98px); line-height:.84; }
-  .toolbar { justify-content:stretch; }
-  .toolbar input { min-width:100%; }
+  .toolbar { justify-content:stretch; width:min(94vw, 640px); bottom:max(10px, env(safe-area-inset-bottom)); padding:12px 12px; }
+  .toolbar input { min-width:100%; width:100%; }
 }
 @media(max-width:520px) {
   .title-lockup { gap:13px; padding-block:14px; }
@@ -138,19 +146,19 @@ img { max-width:100%; display:block; }
 .fade-hero{position:absolute;top:26.5%;left:4.7%;width:33.8%;text-align:center;}
 .fade-dedication{position:absolute;left:5.4%;top:74%;width:34.2%;}
 .fade-grid{
-  position:absolute;top:15.5%;right:3.6%;width:55%;
-  display:grid;grid-template-columns:repeat(5,minmax(0,1fr));
-  gap:clamp(24px,2.25vw,42px) 4.2%;align-items:start;justify-items:center;direction:rtl;
+  position:absolute;top:17%;right:4.2%;width:47%;
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:clamp(24px,2.5vw,44px) 7%;align-items:start;justify-items:center;direction:rtl;
 }
-.fade-grid .photo-holder{width:clamp(88px,5.75vw,122px);}
-.fade-grid .slot-name{font-size:clamp(11px,.78vw,15px);}
+.fade-grid .photo-holder{width:clamp(104px,6.35vw,138px);}
+.fade-grid .slot-name{font-size:clamp(12px,.84vw,16px);}
 .empty-search{position:absolute;right:7%;top:48%;width:min(500px,55%);padding:18px;border-radius:18px;background:rgba(255,255,255,.08);text-align:center;display:none;}
 .empty-search.show{display:block;}
-@media(max-width:1100px){.fade-grid{grid-template-columns:repeat(4,minmax(0,1fr));width:54%;}.fade-grid .photo-holder{width:clamp(82px,7vw,118px);}}
+@media(max-width:1100px){.fade-grid{width:49%;gap:24px 5%;}.fade-grid .photo-holder{width:clamp(98px,8vw,128px);}}
 @media(max-width:860px),(orientation:portrait){
   .fade-poster{height:auto;min-height:max(100svh,1040px);}
   .fade-hero{position:relative;top:auto;left:auto;width:min(86%,820px);margin:clamp(32px,5vh,70px) auto 28px;}
-  .fade-grid{position:relative;top:auto;right:auto;width:82%;margin:0 auto;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 14%;}
+  .fade-grid{position:relative;top:auto;right:auto;width:86%;margin:0 auto;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 12%;}
   .fade-grid .photo-holder{width:clamp(118px,30vw,190px);}
   .fade-grid .slot-name{font-size:clamp(14px,3.7vw,22px);}
   .fade-dedication{position:relative;left:auto;top:auto;width:84%;margin:36px auto 0;font-size:clamp(15px,3.6vw,22px);}
@@ -241,19 +249,57 @@ const statusText = document.getElementById('statusText');
 const prevBtn = document.getElementById('prevBtn');
 const nextBtn = document.getElementById('nextBtn');
 const emptySearch = document.getElementById('emptySearch');
-let slotsCount = window.matchMedia('(max-width: 860px), (orientation: portrait)').matches ? 8 : (window.innerWidth < 1100 ? 12 : 15);
-let startIndex = 0;
-let active = filteredPeople();
+const slotsCount = 6;
+let active = [];
 let cards = [];
-let timer = null;
+let pageTimer = null;
+let featureTimer = null;
+let batchIndex = 0;
+let featureIndex = 0;
 
-function makeCard(person) {
-  const btn = document.createElement('button');
-  btn.type = 'button';
-  btn.className = 'memory-slot';
-  btn.innerHTML = `<span class="photo-holder">${imgMarkup(person)}</span><span class="slot-name">${person.name}</span>`;
-  btn.addEventListener('click', () => openLightbox(person));
-  return btn;
+const firstBatchNames = [
+  'ליבשטיין אופיר ז"ל',
+  "צדיקביץ' עומר ז\"ל",
+  'פיורנטינו אילן ז"ל',
+  'אביאני שחר ז"ל',
+  'שטהל מירה ז"ל',
+  'עמיקם נדב ז"ל'
+];
+const secondBatchNames = [
+  'קוץ אביב ז"ל',
+  'קוץ ליבנת ז"ל',
+  'קוץ יפתח ז"ל',
+  'קוץ יונתן ז"ל',
+  'קוץ רותם ז"ל',
+  'רביב ניב ז"ל'
+];
+
+function imgMarkup(person) {
+  return `<img src="${person.image}" alt="${person.name}">`;
+}
+function matches(person, q) {
+  if (!q) return true;
+  return `${person.name} ${person.place} ${person.role || ''}`.includes(q);
+}
+function filteredPeople() {
+  const q = searchInput ? searchInput.value.trim() : '';
+  const seen = new Set();
+  return people.filter(person => {
+    if (!matches(person, q)) return false;
+    const key = person.id || person.name;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+function openLightbox(person) {
+  lightboxImg.innerHTML = imgMarkup(person);
+  lightboxTitle.textContent = person.name;
+  lightboxPlace.textContent = person.place || '';
+  lightbox.classList.add('is-open');
+  lightbox.setAttribute('aria-hidden','false');
+  document.body.style.overflow = 'hidden';
+  lightboxClose.focus();
 }
 function buildCards() {
   posterGrid.innerHTML = '';
@@ -268,56 +314,154 @@ function buildCards() {
   }
 }
 function setCard(card, person) {
+  card.classList.remove('is-featured');
   if (!person) {
     card.style.visibility = 'hidden';
     card.onclick = null;
+    card.dataset.personId = '';
     return;
   }
   card.style.visibility = '';
+  card.dataset.personId = person.id || person.name;
   card.innerHTML = `<span class="photo-holder">${imgMarkup(person)}</span><span class="slot-name">${person.name}</span>`;
   card.onclick = () => openLightbox(person);
 }
-function render() {
+function peopleByName(sourceList){
+  const map = new Map();
+  sourceList.forEach(p => map.set(p.name, p));
+  return map;
+}
+function createBatchesFromList(sourceList){
+  const q = searchInput ? searchInput.value.trim() : '';
+  if (q) {
+    const batches = [];
+    for (let i=0; i<sourceList.length; i += slotsCount) batches.push(sourceList.slice(i, i + slotsCount));
+    return batches;
+  }
+  const byName = peopleByName(sourceList);
+  const used = new Set();
+  const batches = [];
+  function takeBatch(nameList){
+    const batch = [];
+    nameList.forEach(name => {
+      const person = byName.get(name);
+      if (person && !used.has(person.name) && batch.length < slotsCount) {
+        batch.push(person);
+        used.add(person.name);
+      }
+    });
+    if (batch.length) batches.push(batch);
+  }
+  takeBatch(firstBatchNames);
+  takeBatch(secondBatchNames);
+
+  const remaining = sourceList.filter(p => !used.has(p.name));
+  const familyCounts = new Map();
+  remaining.forEach(person => {
+    const surname = person.name.split(' ')[0];
+    familyCounts.set(surname, (familyCounts.get(surname) || 0) + 1);
+  });
+  const emittedFamily = new Set();
+  const units = [];
+  remaining.forEach(person => {
+    const surname = person.name.split(' ')[0];
+    const count = familyCounts.get(surname) || 0;
+    if (count > 1) {
+      if (emittedFamily.has(surname)) return;
+      emittedFamily.add(surname);
+      units.push(remaining.filter(p => p.name.split(' ')[0] === surname));
+    } else {
+      units.push([person]);
+    }
+  });
+
+  let current = [];
+  units.forEach(unit => {
+    if (current.length && current.length + unit.length > slotsCount) {
+      batches.push(current);
+      current = [];
+    }
+    if (unit.length > slotsCount) {
+      for (let i = 0; i < unit.length; i += slotsCount) {
+        const part = unit.slice(i, i + slotsCount);
+        if (!current.length) {
+          batches.push(part);
+        } else {
+          batches.push(current);
+          current = part;
+        }
+      }
+    } else {
+      current = current.concat(unit);
+    }
+  });
+  if (current.length) batches.push(current);
+  return batches.filter(batch => batch.length);
+}
+function currentBatches(){ return createBatchesFromList(active); }
+function clearFeatureState(){
+  clearInterval(featureTimer);
+  cards.forEach(card => card.classList.remove('is-featured'));
+  featureIndex = 0;
+}
+function startFeatureTimer(){
+  clearFeatureState();
+  const visibleCards = cards.filter(card => card.style.visibility !== 'hidden');
+  if (!visibleCards.length) return;
+  function highlightOne(){
+    visibleCards.forEach(card => card.classList.remove('is-featured'));
+    const target = visibleCards[featureIndex % visibleCards.length];
+    if (target) target.classList.add('is-featured');
+    featureIndex = (featureIndex + 1) % visibleCards.length;
+  }
+  highlightOne();
+  if (visibleCards.length > 1) featureTimer = setInterval(highlightOne, 1800);
+}
+function renderBatch(){
   active = filteredPeople();
+  const batches = currentBatches();
   emptySearch.classList.toggle('show', !active.length);
-  if (!active.length) {
+  if (!active.length || !batches.length) {
     cards.forEach(card => setCard(card, null));
     statusText.textContent = '0 תוצאות';
+    clearFeatureState();
     return;
   }
-  if (startIndex >= active.length) startIndex = 0;
-  const visiblePeople = active.slice(startIndex, startIndex + slotsCount);
-  for (let i=0; i<slotsCount; i++) {
-    setCard(cards[i], visiblePeople[i] || null);
-  }
-  const end = Math.min(active.length, startIndex + visiblePeople.length);
-  statusText.textContent = `${startIndex + 1}-${end} מתוך ${active.length}`;
+  if (batchIndex >= batches.length) batchIndex = 0;
+  const visiblePeople = batches[batchIndex] || [];
+  for (let i=0; i<slotsCount; i++) setCard(cards[i], visiblePeople[i] || null);
+  const flatIndexStart = batches.slice(0, batchIndex).reduce((sum, batch) => sum + batch.length, 0) + 1;
+  const flatIndexEnd = flatIndexStart + visiblePeople.length - 1;
+  statusText.textContent = `${flatIndexStart}-${flatIndexEnd} מתוך ${active.length}`;
+  startFeatureTimer();
 }
-function move(direction, withFade=true) {
-  if (!active.length) return;
+function move(direction, withFade=true){
+  const batches = currentBatches();
+  if (!batches.length) return;
   if (withFade) cards.forEach(c => c.classList.add('is-fading'));
   setTimeout(() => {
-    const lastPageStart = Math.max(0, Math.floor((active.length - 1) / slotsCount) * slotsCount);
-    startIndex += direction * slotsCount;
-    if (startIndex > lastPageStart) startIndex = 0;
-    if (startIndex < 0) startIndex = lastPageStart;
-    render();
+    batchIndex += direction;
+    if (batchIndex >= batches.length) batchIndex = 0;
+    if (batchIndex < 0) batchIndex = batches.length - 1;
+    renderBatch();
     cards.forEach(c => c.classList.remove('is-fading'));
   }, withFade ? 520 : 0);
 }
-function startTimer() {
-  clearInterval(timer);
-  if (active.length > slotsCount) timer = setInterval(() => move(1, true), 9000);
+function startPageTimer(){
+  clearInterval(pageTimer);
+  const batches = currentBatches();
+  if (batches.length > 1) pageTimer = setInterval(() => move(1, true), 10500);
 }
-function refresh() { startIndex = 0; render(); startTimer(); }
-buildCards(); refresh();
+function refresh(){
+  batchIndex = 0;
+  renderBatch();
+  startPageTimer();
+}
+buildCards();
+refresh();
 searchInput.addEventListener('input', refresh);
-prevBtn.addEventListener('click', () => { move(-1, true); startTimer(); });
-nextBtn.addEventListener('click', () => { move(1, true); startTimer(); });
-window.addEventListener('resize', () => {
-  const nextCount = window.matchMedia('(max-width: 860px), (orientation: portrait)').matches ? 8 : (window.innerWidth < 1100 ? 12 : 15);
-  if (nextCount !== slotsCount) { slotsCount = nextCount; buildCards(); refresh(); }
-});
+prevBtn.addEventListener('click', () => { move(-1, true); startPageTimer(); });
+nextBtn.addEventListener('click', () => { move(1, true); startPageTimer(); });
 </script>
 </body>
 </html>
