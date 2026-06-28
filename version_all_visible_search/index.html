@@ -246,7 +246,14 @@ function matches(person, q) {
 }
 function filteredPeople() {
   const q = searchInput ? searchInput.value.trim() : '';
-  return people.filter(p => matches(p, q));
+  const seen = new Set();
+  return people.filter(person => {
+    if (!matches(person, q)) return false;
+    const key = person.id || person.name;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
 }
 function openLightbox(person) {
   lightboxImg.innerHTML = imgMarkup(person);

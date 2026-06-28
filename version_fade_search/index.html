@@ -209,7 +209,14 @@ function matches(person, q) {
 }
 function filteredPeople() {
   const q = searchInput ? searchInput.value.trim() : '';
-  return people.filter(p => matches(p, q));
+  const seen = new Set();
+  return people.filter(person => {
+    if (!matches(person, q)) return false;
+    const key = person.id || person.name;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
 }
 function openLightbox(person) {
   lightboxImg.innerHTML = imgMarkup(person);
@@ -278,18 +285,22 @@ function render() {
     statusText.textContent = '0 תוצאות';
     return;
   }
+  if (startIndex >= active.length) startIndex = 0;
+  const visiblePeople = active.slice(startIndex, startIndex + slotsCount);
   for (let i=0; i<slotsCount; i++) {
-    setCard(cards[i], active[(startIndex+i) % active.length]);
+    setCard(cards[i], visiblePeople[i] || null);
   }
-  const end = Math.min(active.length, startIndex + slotsCount);
+  const end = Math.min(active.length, startIndex + visiblePeople.length);
   statusText.textContent = `${startIndex + 1}-${end} מתוך ${active.length}`;
 }
 function move(direction, withFade=true) {
   if (!active.length) return;
   if (withFade) cards.forEach(c => c.classList.add('is-fading'));
   setTimeout(() => {
-    startIndex = (startIndex + direction * slotsCount) % active.length;
-    if (startIndex < 0) startIndex += active.length;
+    const lastPageStart = Math.max(0, Math.floor((active.length - 1) / slotsCount) * slotsCount);
+    startIndex += direction * slotsCount;
+    if (startIndex > lastPageStart) startIndex = 0;
+    if (startIndex < 0) startIndex = lastPageStart;
     render();
     cards.forEach(c => c.classList.remove('is-fading'));
   }, withFade ? 520 : 0);
