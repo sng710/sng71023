@@ -1,79 +1,86 @@
-﻿id,name,image,photoCount,imageSource,links,hasSummary,place
-laad-43495,"אביב ורטהיים ז""ל",assets/site-ready-people/laad-43495/photo_01.jpg,1,site_ready face-filtered local,5,True,כפר עזה
-laad-43472,"אביעד אדרי ז""ל",assets/site-ready-people/laad-43472/photo_01.jpg,4,site_ready face-filtered local,5,True,כפר עזה
-laad-43484,"איתי ברדיצ'סקי ז""ל",assets/site-ready-people/laad-43484/photo_01.webp,1,site_ready face-filtered local,5,True,כפר עזה
-laad-43497,"איתן זיויק זיו ז""ל",assets/site-ready-people/laad-43497/photo_01.jpg,3,site_ready face-filtered local,5,True,כפר עזה
-laad-43473,"אליהו אורגד ז""ל",assets/site-ready-people/laad-43473/photo_01.jpg,2,site_ready face-filtered local,5,True,כפר עזה
-laad-43384,"אליצור חג'בי ז""ל",assets/site-ready-people/laad-43384/photo_01.jpg,1,site_ready face-filtered local,5,True,יכיני
-laad-43349,"אנג'לין אגירה ז""ל",assets/people-laad/laad-43349/photo_001.jpg,4,people.zip local,0,False,כפר עזה
-laad-43490,"ארן גורן ז""ל",assets/site-ready-people/laad-43490/photo_01.jpg,1,site_ready face-filtered local,5,True,כפר עזה
-laad-43479,"בלהה אפשטיין ז""ל",assets/site-ready-people/laad-43479/photo_01.jpg,1,site_ready face-filtered local,2,True,כפר עזה
-laad-43496,"דורית ורטהיים (כסלו) ז""ל",assets/site-ready-people/laad-43496/photo_01.jpg,2,site_ready face-filtered local,5,True,כפר עזה
-laad-43485,"הדר ברדיצ'סקי רוזנפלד ז""ל",assets/site-ready-people/laad-43485/photo_01.jpg,1,site_ready face-filtered local,3,True,כפר עזה
-laad-43364,"הלל זלמנוביץ ז""ל",assets/people-laad/laad-43364/photo_001.jpg,7,people.zip local,0,False,מפלסים
-laad-43365,"חיימי בנעים ז""ל",assets/people-laad/laad-43365/photo_001.jpg,6,people.zip local,0,False,מפלסים
-laad-43491,"טובה גורן ז""ל",assets/site-ready-people/laad-43491/photo_01.jpg,1,site_ready face-filtered local,5,True,כפר עזה
-laad-43494,"יהב וינר ז""ל",assets/site-ready-people/laad-43494/photo_01.jpg,1,site_ready face-filtered local,5,True,כפר עזה
-laad-43385,"יהונתן ג'וני חג'בי ז""ל",assets/site-ready-people/laad-43385/photo_01.jpg,2,site_ready face-filtered local,5,True,יכיני
-laad-43481,"יובל בויום ז""ל",assets/site-ready-people/laad-43481/photo_01.jpg,1,site_ready face-filtered local,5,True,כפר עזה
-laad-44119,"יותם חיים ז""ל",assets/site-ready-people/laad-44119/photo_01.jpg,1,site_ready face-filtered local,5,True,כפר עזה
-laad-43386,"יזהר חג'בי ז""ל",assets/site-ready-people/laad-43386/photo_01.jpg,1,site_ready face-filtered local,4,True,יכיני
-laad-43538,"יניב זוהר ז""ל",assets/site-ready-people/laad-43538/photo_01.jpg,1,site_ready face-filtered local,5,True,נחל עוז
-laad-43539,"יסמין זוהר ז""ל",assets/site-ready-people/laad-43539/photo_01.jpg,1,site_ready face-filtered local,5,True,נחל עוז
-laad-43475,"לילי איתמרי ז""ל",assets/site-ready-people/laad-43475/photo_01.png,1,site_ready face-filtered local,5,True,כפר עזה; רוחמה
-laad-43482,"מאיה בן דוד ז""ל",assets/site-ready-people/laad-43482/photo_01.jpg,3,site_ready face-filtered local,5,True,כפר עזה
-laad-43478,"מודי מרדכי אמיר ז""ל",assets/people-laad/laad-43478/photo_001.jpg,6,people.zip local,0,True,כפר עזה
-laad-43471,"מיכל אדמוני ז""ל",assets/site-ready-people/laad-43471/photo_01.jpg,2,site_ready face-filtered local,5,True,כפר עזה
-laad-43500,"נאור ניסים חסידים ז""ל",assets/site-ready-people/laad-43500/photo_01.jpg,3,site_ready face-filtered local,5,True,כפר עזה
-laad-43488,"נדב יהודה גולדשטיין אלמוג ז""ל",assets/site-ready-people/laad-43488/photo_01.jpg,1,site_ready face-filtered local,5,True,כפר עזה
-laad-43534,"נועם אליקים ז""ל",assets/site-ready-people/laad-43534/photo_01.webp,1,site_ready face-filtered local,5,True,נחל עוז
-laad-43480,"נטע אפשטיין ז""ל",assets/site-ready-people/laad-43480/photo_01.webp,2,site_ready face-filtered local,5,True,כפר עזה
-laad-43499,"ניראל זיני ז""ל",assets/site-ready-people/laad-43499/photo_01.jpg,1,site_ready face-filtered local,5,True,כפר עזה
-laad-43492,"נעמי דגני ז""ל",assets/site-ready-people/laad-43492/photo_01.jpg,2,site_ready face-filtered local,4,True,כפר עזה
-laad-44121,"סאמר טאללקה ז""ל",assets/people-laad/laad-44121/photo_001.jpg,4,people.zip local,0,False,ניר עם
-laad-44107,"סטה הומסורן ז""ל",assets/people-laad/laad-44107/photo_002.jpg,4,people.zip local,0,False,כפר עזה
-laad-43477,"סיון אלקבץ ז""ל",assets/site-ready-people/laad-43477/photo_01.jpg,1,site_ready face-filtered local,5,True,כפר עזה
-laad-42125,"סלאח אלדין אבו אלטייף ז""ל",assets/people-laad/laad-42125/photo_001.jpg,4,people.zip local,0,False,נחל עוז
-laad-43501,"עומר חרמש ז""ל",assets/site-ready-people/laad-43501/photo_01.jpg,6,site_ready face-filtered local,5,True,כפר עזה
-laad-43540,"קשת זוהר ז""ל",assets/site-ready-people/laad-43540/photo_01.jpg,3,site_ready face-filtered local,5,True,נחל עוז
-laad-44160,"רון בנימין ז""ל",assets/people-laad/laad-44160/photo_001.jpg,6,people.zip local,0,False,מפלסים
-laad-43476,"רם איתמרי ז""ל",assets/site-ready-people/laad-43476/photo_01.png,2,site_ready face-filtered local,5,True,כפר עזה
-laad-43537,"שושנה שושי ברוש ז""ל",assets/site-ready-people/laad-43537/photo_01.jpg,1,site_ready face-filtered local,5,True,נחל עוז
-laad-43363,"שלומי דוידוביץ' ז""ל",assets/site-ready-people/laad-43363/photo_01.jpg,1,site_ready face-filtered local,5,True,גבים; מפלסים
-laad-43541,"תכלת זוהר ז""ל",assets/site-ready-people/laad-43541/photo_01.jpg,4,site_ready face-filtered local,5,True,נחל עוז
-laad-43498,"תמי פלג זיו ז""ל",assets/site-ready-people/laad-43498/photo_01.png,1,site_ready face-filtered local,5,True,כפר עזה
-extra-68d0ed3fba,"שחר אביאני ז""ל",assets/site-ready-people/extra-68d0ed3fba/photo_01.jpg,2,site_ready face-filtered local,5,True,כפר עזה
-extra-3013bcbd5b,"גיא אדמוני ז""ל",assets/site-ready-people/extra-3013bcbd5b/photo_01.jpg,1,site_ready face-filtered local,5,True,כפר עזה
-extra-46d19f0d7b,"טל אילון ז""ל",assets/site-ready-people/extra-46d19f0d7b/photo_01.jpg,4,site_ready face-filtered local,5,True,כפר עזה
-extra-86fecc4aa4,"שחף ברגשטיין ז""ל",assets/site-ready-people/extra-86fecc4aa4/photo_01.jpg,1,site_ready face-filtered local,5,True,כפר עזה
-extra-5560daf261,"אביב ברעם ז""ל",assets/site-ready-people/extra-5560daf261/photo_01.jpg,1,site_ready face-filtered local,5,True,כפר עזה
-extra-7229c62614,"ים גולדשטיין ז""ל",assets/site-ready-people/extra-7229c62614/photo_01.jpg,4,site_ready face-filtered local,5,True,כפר עזה; נחל עוז
-extra-ce297cca9d,"יבגני גלסקי ז""ל",assets/site-ready-people/extra-ce297cca9d/photo_01.jpg,3,site_ready face-filtered local,5,True,שדרות
-extra-dbe6d11b24,"אבי הנדי ז""ל",assets/site-ready-people/extra-dbe6d11b24/photo_01.png,1,site_ready face-filtered local,5,True,כפר עזה; נחל עוז
-extra-b45c3ba0af,"יובל סלומון ז""ל",assets/site-ready-people/extra-b45c3ba0af/photo_01.jpg,2,site_ready face-filtered local,5,True,כפר עזה; נחל עוז
-extra-aa18970933,"מעיין עידן ז""ל",assets/site-ready-people/extra-aa18970933/photo_01.jpg,3,site_ready face-filtered local,5,True,נחל עוז
-extra-751cb0199c,"סמדר עידן ז""ל",assets/site-ready-people/extra-751cb0199c/photo_01.webp,3,site_ready face-filtered local,5,True,כפר עזה
-extra-68b92294c4,"זיו חג'בי ז""ל",assets/site-ready-people/extra-68b92294c4/photo_01.jpg,1,site_ready face-filtered local,4,True,גבים; רעים
-extra-d7297f58d8,"חיים ליבנה ז""ל",assets/site-ready-people/extra-d7297f58d8/photo_01.jpg,1,site_ready face-filtered local,4,True,כפר עזה; נחל עוז
-extra-9ed11d596e,"אופיר ליבשטיין ז""ל",assets/site-ready-people/extra-9ed11d596e/photo_01.jpg,2,site_ready face-filtered local,5,True,כפר עזה; נחל עוז; אור הנר
-extra-4aa1e457cc,"ניצן ליבשטיין ז""ל",assets/site-ready-people/extra-4aa1e457cc/photo_01.jpg,2,site_ready face-filtered local,4,True,כפר עזה
-extra-fe23c91f32,"ג'ושוע לואיטו מולל ז""ל",assets/site-ready-people/extra-fe23c91f32/photo_01.jpg,5,site_ready face-filtered local,5,True,כפר עזה; נחל עוז
-extra-0e36724ca0,"אמיר נעים ז""ל",assets/site-ready-people/extra-0e36724ca0/photo_01.jpg,1,site_ready face-filtered local,5,True,כפר עזה; נחל עוז; ארז
-extra-7f75ee528b,"פלג סלאם ז""ל",assets/site-ready-people/extra-7f75ee528b/photo_01.jpg,1,site_ready face-filtered local,5,True,יכיני
-extra-3f789681eb,"יפתח קוץ ז""ל",assets/site-ready-people/extra-3f789681eb/photo_01.jpg,3,site_ready face-filtered local,5,True,כפר עזה
-extra-abb9f2948e,"ליבנת קוץ ז""ל",assets/site-ready-people/extra-abb9f2948e/photo_01.jpg,2,site_ready face-filtered local,5,True,כפר עזה
-extra-1feb172c58,"רותם קוץ ז""ל",assets/site-ready-people/extra-1feb172c58/photo_01.jpg,2,site_ready face-filtered local,5,True,כפר עזה
-extra-51f625b2f4,"דוד קציר ז""ל",assets/site-ready-people/extra-51f625b2f4/photo_01.jpg,2,site_ready face-filtered local,5,True,כפר עזה; נחל עוז
-extra-050ed802bd,"צחי עידן ז""ל",assets/site-ready-people/extra-050ed802bd/photo_01.jpg,1,site_ready face-filtered local,5,True,כפר עזה; נחל עוז
-extra-1e7432402f,"רועי עידן ז""ל",assets/site-ready-people/extra-1e7432402f/photo_01.jpg,1,site_ready face-filtered local,5,True,כפר עזה
-extra-bbc28d3535,"נדב עמיקם ז""ל",assets/site-ready-people/extra-bbc28d3535/photo_01.jpg,3,site_ready face-filtered local,5,True,כפר עזה; דורות
-extra-717acd5d8e,"תומר ערבה אליעז ז""ל",assets/site-ready-people/extra-717acd5d8e/photo_01.jpg,1,site_ready face-filtered local,3,True,נחל עוז
-extra-44507653d2,"דקלה ערבה ז""ל",assets/site-ready-people/extra-44507653d2/photo_01.png,3,site_ready face-filtered local,5,True,נחל עוז
-extra-2db1e17676,"רן פוסלושני ז""ל",assets/site-ready-people/extra-2db1e17676/photo_01.jpg,2,site_ready face-filtered local,5,True,כפר עזה; נחל עוז
-extra-b9553a46eb,"אילן פיורנטינו ז""ל",assets/site-ready-people/extra-b9553a46eb/photo_01.jpg,1,site_ready face-filtered local,5,True,כפר עזה; נחל עוז
-extra-f1b05262e9,"גילה פלד ז""ל",assets/site-ready-people/extra-f1b05262e9/photo_01.jpg,3,site_ready face-filtered local,5,True,כפר עזה
-extra-9fa50f14d5,"דניאל פלד ז""ל",assets/site-ready-people/extra-9fa50f14d5/photo_01.jpg,2,site_ready face-filtered local,4,True,כפר עזה
-extra-22a5392641,"יזהר פלד ז""ל",assets/site-ready-people/extra-22a5392641/photo_01.jpg,2,site_ready face-filtered local,5,True,כפר עזה
-extra-bc8184886a,"יגאל פלש ז""ל",assets/site-ready-people/extra-bc8184886a/photo_01.jpg,1,site_ready face-filtered local,4,True,כפר עזה
-extra-75e61b9391,"סינתיה תמר פלש ז""ל",assets/site-ready-people/extra-75e61b9391/photo_01.jpg,1,site_ready face-filtered local,4,True,כפר עזה; נחל עוז; רעים; נתיב העשרה
-extra-525f30e51f,"פנסה ארד סומקואן ז""ל",assets/site-ready-people/extra-525f30e51f/photo_01.jpg,2,site_ready face-filtered local,2,True,נחל עוז
+﻿name,community,image
+"אביאני שחר ז""ל",כפר עזה,assets/people-original/person-009.jpg
+"אדמוני גיא ז""ל",כפר עזה,assets/people-original/person-010.jpg
+"אדמוני מיכל ז""ל",כפר עזה,assets/people-original/person-011.jpg
+"אדרי אביעד ז""ל",כפר עזה,assets/people-original/person-012.jpg
+"אורגד אליהו ז""ל",כפר עזה,assets/people-original/person-013.jpg
+"אילון טל ז""ל",כפר עזה,assets/people-original/person-014.jpg
+"איתמרי לילי ז""ל",כפר עזה,assets/people-original/person-016.jpg
+"איתמרי רם ז""ל",כפר עזה,assets/people-original/person-015.jpg
+"אליקים נעם ז""ל",נחל עוז,assets/people-original/person-070.jpg
+"אלקבץ סיון ז""ל",כפר עזה,assets/people-original/person-017.jpg
+"אמיר מרדכי (מודי) ז""ל",כפר עזה,assets/people-original/person-018.jpg
+"אפשטין בלהה ז""ל",כפר עזה,assets/people-original/person-019.jpg
+"אפשטין נטע ז""ל",כפר עזה,assets/people-original/person-020.jpg
+"בדיצ'סקי הדר ז""ל",כפר עזה,assets/people-original/person-022.jpg
+"בויום יובל ז""ל",כפר עזה,assets/people-original/person-023.jpg
+"בן דוד מאיה ז""ל",כפר עזה,assets/people-original/person-024.jpg
+"ברגשטיין שחף ז""ל",כפר עזה,assets/people-original/person-025.jpg
+"ברדיצ'סקי איתי ז""ל",כפר עזה,assets/people-original/person-021.jpg
+"ברוש שושנה ז""ל",נחל עוז,assets/people-original/person-071.jpg
+"ברעם אביב ז""ל",כפר עזה,assets/people-original/person-026.jpg
+"גולדשטיין ים ז""ל",כפר עזה,assets/people-original/person-028.jpg
+"גולדשטיין נדב ז""ל",כפר עזה,assets/people-original/person-027.jpg
+"גורן ארן ז""ל",כפר עזה,assets/people-original/person-029.jpg
+"גורן טובה ז""ל",כפר עזה,assets/people-original/person-030.jpg
+"גלסקי יבגני ז""ל",ארז,assets/people-original/person-001.jpg
+"דגני נעמי ז""ל",כפר עזה,assets/people-original/person-031.jpg
+"דוידוביץ שלומי ז""ל",גבים,assets/people-original/person-003.jpg
+"הנדי אבי ז""ל",כפר עזה,assets/people-original/person-032.jpg
+"וינר יהב ז""ל",כפר עזה,assets/people-original/person-033.jpg
+"ורטהיים אביב ז""ל",כפר עזה,assets/people-original/person-035.jpg
+"ורטהיים דורית ז""ל",כפר עזה,assets/people-original/person-034.jpg
+"זוהר יניב ז""ל",נחל עוז,assets/people-original/person-072.jpg
+"זוהר יסמין ז""ל",נחל עוז,assets/people-original/person-073.jpg
+"זוהר קשת ז""ל",נחל עוז,assets/people-original/person-074.jpg
+"זוהר תכלת ז""ל",נחל עוז,assets/people-original/person-075.jpg
+"זיו איתן ז""ל",כפר עזה,assets/people-original/person-037.jpg
+"זיו פלג תמי ז""ל",כפר עזה,assets/people-original/person-038.jpg
+"זיני ניראל ז""ל",כפר עזה,assets/people-original/person-036.jpg
+"חג'בי אליצור צוריאל ז""ל",יכיני,assets/people-original/person-005.jpg
+"חג'בי זיו ז""ל",גבים,assets/people-original/person-004.jpg
+"חג'בי יהונתן ז""ל",יכיני,assets/people-original/person-006.jpg
+"חג'בי יזהר ז""ל",יכיני,assets/people-original/person-007.jpg
+"חיים יותם ז""ל",כפר עזה,assets/people-original/person-039.jpg
+"חסידים נאור ז""ל",כפר עזה,assets/people-original/person-041.jpg
+"חרמש עומר ז""ל",כפר עזה,assets/people-original/person-040.jpg
+"ליבנה חיים ז""ל",נחל עוז,assets/people-original/person-076.jpg
+"ליבשטיין אופיר ז""ל",כפר עזה,assets/people-original/person-043.jpg
+"ליבשטיין ניצן ז""ל",כפר עזה,assets/people-original/person-044.jpg
+"מולל ג'ושוע לואיטו ז""ל",נחל עוז,assets/people-original/person-077.jpg
+"נעים אמיר ז""ל",ארז,assets/people-original/person-002.jpg
+"סלאם פלג ז""ל",יכיני,assets/people-original/person-008.jpg
+"סלומון יובל ז""ל",כפר עזה,assets/people-original/person-048.jpg
+"עידן מעיין ז""ל",נחל עוז,assets/people-original/person-079.jpg
+"עידן סמדר ז""ל",כפר עזה,assets/people-original/person-045.jpg
+"עידן צחי ז""ל",נחל עוז,assets/people-original/person-078.jpg
+"עידן רועי ז""ל",כפר עזה,assets/people-original/person-046.jpg
+"עמיקם נדב ז""ל",כפר עזה,assets/people-original/person-047.jpg
+"ערבה אליעז תומר ז""ל",נחל עוז,assets/people-original/person-080.jpg
+"ערבה דקלה ז""ל",נחל עוז,assets/people-original/person-081.jpg
+"פוסלושני רן ז""ל",נחל עוז,assets/people-original/person-082.jpg
+"פיורנטינו אילן ז""ל",נחל עוז,assets/people-original/person-083.jpg
+"פלד גילה ז""ל",כפר עזה,assets/people-original/person-050.jpg
+"פלד דניאל ז""ל",כפר עזה,assets/people-original/person-049.jpg
+"פלד יזהר ז""ל",כפר עזה,assets/people-original/person-051.jpg
+"פלש יגאל ז""ל",כפר עזה,assets/people-original/person-052.jpg
+"פלש סינתיה תמר ז""ל",כפר עזה,assets/people-original/person-053.jpg
+"פנסה ארד סומקואן ז""ל",נחל עוז,assets/people-original/person-084.jpg
+"צדיקביץ' עומר ז""ל",כפר עזה,assets/people-original/person-054.jpg
+"קוץ אביב ז""ל",כפר עזה,assets/people-original/person-055.jpg
+"קוץ יונתן ז""ל",כפר עזה,assets/people-original/person-056.jpg
+"קוץ יפתח ז""ל",כפר עזה,assets/people-original/person-057.jpg
+"קוץ ליבנת ז""ל",כפר עזה,assets/people-original/person-058.jpg
+"קוץ רותם ז""ל",כפר עזה,assets/people-original/person-059.jpg
+"קציר דוד ז""ל",כפר עזה,assets/people-original/person-060.jpg
+"רביב ניב ז""ל",כפר עזה,assets/people-original/person-061.jpg
+"רון שלמה צבי ז""ל",נחל עוז,assets/people-original/person-085.jpg
+"רונן נירה ז""ל",כפר עזה,assets/people-original/person-062.jpg
+"רוסו אורי שמעון ז""ל",כפר עזה,assets/people-original/person-063.jpg
+"רייכנשטיין אליהו ז""ל",כפר עזה,assets/people-original/person-064.jpg
+"שוורצמן אלברטו דוד ז""ל",כפר עזה,assets/people-original/person-066.jpg
+"שוורצמן פינקו אורלי ז""ל",כפר עזה,assets/people-original/person-065.jpg
+"שושני אופיר ז""ל",כפר עזה,assets/people-original/person-067.jpg
+"שטהל מירה ז""ל",כפר עזה,assets/people-original/person-068.jpg
+"שמריז אלון ז""ל",כפר עזה,assets/people-original/person-069.jpg
+"שפירא זיו פפה ז""ל",ניר עם,assets/people-original/person-086.jpg
