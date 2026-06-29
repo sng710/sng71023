@@ -1,0 +1,241 @@
+﻿image,kept,face_count,similarity,cluster_size,reason,person,zip
+images/01_יובל-סלומון.jpg,True,2,1.0,2,face_cluster_passed,יובל סלומון,סלומון-יובל(1).zip
+images/02_יובל-סלומון.jpg,True,2,1.0,2,face_cluster_passed,יובל סלומון,סלומון-יובל(1).zip
+images/03_יובל-סלומון.jpg,False,1,0.382,2,outside_selected_face_cluster,יובל סלומון,סלומון-יובל(1).zip
+images/10_יובל-סלומון.jpg,False,1,0.064,2,outside_selected_face_cluster,יובל סלומון,סלומון-יובל(1).zip
+images/04_יובל-סלומון.jpg,False,0,,2,no_face_detected,יובל סלומון,סלומון-יובל(1).zip
+images/05_יובל-סלומון.jpg,False,0,,2,no_face_detected,יובל סלומון,סלומון-יובל(1).zip
+images/06_יובל-סלומון.jpg,False,0,,2,no_face_detected,יובל סלומון,סלומון-יובל(1).zip
+images/07_יובל-סלומון.jpg,False,0,,2,no_face_detected,יובל סלומון,סלומון-יובל(1).zip
+images/08_יובל-סלומון.jpg,False,0,,2,no_face_detected,יובל סלומון,סלומון-יובל(1).zip
+images/09_יובל-סלומון.jpg,False,0,,2,no_face_detected,יובל סלומון,סלומון-יובל(1).zip
+images/11_יובל-סלומון.jpg,False,0,,2,no_face_detected,יובל סלומון,סלומון-יובל(1).zip
+images/12_יובל-סלומון.jpg,False,0,,2,no_face_detected,יובל סלומון,סלומון-יובל(1).zip
+images/01_מעיין-עידן.jpg,True,1,1.0,3,face_cluster_passed,מעיין עידן,עידן-מעיין(1).zip
+images/03_מעיין-עידן.jpg,False,1,0.299,3,outside_selected_face_cluster,מעיין עידן,עידן-מעיין(1).zip
+images/07_מעיין-עידן.jpg,False,3,0.264,3,outside_selected_face_cluster,מעיין עידן,עידן-מעיין(1).zip
+images/08_מעיין-עידן.jpg,False,1,0.43,3,outside_selected_face_cluster,מעיין עידן,עידן-מעיין(1).zip
+images/09_מעיין-עידן.png,True,1,1.0,3,face_cluster_passed,מעיין עידן,עידן-מעיין(1).zip
+images/12_מעיין-עידן.jpg,True,1,1.0,3,face_cluster_passed,מעיין עידן,עידן-מעיין(1).zip
+images/02_מעיין-עידן.jpg,False,0,,3,no_face_detected,מעיין עידן,עידן-מעיין(1).zip
+images/04_מעיין-עידן.jpg,False,0,,3,no_face_detected,מעיין עידן,עידן-מעיין(1).zip
+images/05_מעיין-עידן.png,False,0,,3,no_face_detected,מעיין עידן,עידן-מעיין(1).zip
+images/06_מעיין-עידן.jpg,False,0,,3,no_face_detected,מעיין עידן,עידן-מעיין(1).zip
+images/10_מעיין-עידן.jpg,False,0,,3,no_face_detected,מעיין עידן,עידן-מעיין(1).zip
+images/11_מעיין-עידן.png,False,0,,3,no_face_detected,מעיין עידן,עידן-מעיין(1).zip
+images/01_סמדר-עידן.webp,True,1,1.0,3,face_cluster_passed,סמדר עידן,עידן-סמדר(1).zip
+images/02_סמדר-עידן.webp,False,2,0.248,3,outside_selected_face_cluster,סמדר עידן,עידן-סמדר(1).zip
+images/03_סמדר-עידן.png,True,2,1.0,3,face_cluster_passed,סמדר עידן,עידן-סמדר(1).zip
+images/05_סמדר-עידן.jpg,False,1,0.399,3,outside_selected_face_cluster,סמדר עידן,עידן-סמדר(1).zip
+images/06_סמדר-עידן.jpg,False,1,0.257,3,outside_selected_face_cluster,סמדר עידן,עידן-סמדר(1).zip
+images/07_סמדר-עידן.jpg,False,1,0.202,3,outside_selected_face_cluster,סמדר עידן,עידן-סמדר(1).zip
+images/08_סמדר-עידן.webp,False,1,0.423,3,outside_selected_face_cluster,סמדר עידן,עידן-סמדר(1).zip
+images/09_סמדר-עידן.webp,False,5,0.112,3,outside_selected_face_cluster,סמדר עידן,עידן-סמדר(1).zip
+images/11_סמדר-עידן.jpg,True,1,1.0,3,face_cluster_passed,סמדר עידן,עידן-סמדר(1).zip
+images/04_סמדר-עידן.jpg,False,0,,3,no_face_detected,סמדר עידן,עידן-סמדר(1).zip
+images/10_סמדר-עידן.jpg,False,0,,3,no_face_detected,סמדר עידן,עידן-סמדר(1).zip
+images/12_סמדר-עידן.jpg,False,0,,3,no_face_detected,סמדר עידן,עידן-סמדר(1).zip
+images/01_תכלת-זוהר.jpg,True,1,1.0,4,face_cluster_passed,תכלת זוהר,זוהר-תכלת(1).zip
+images/05_תכלת-זוהר.jpg,False,3,0.264,4,outside_selected_face_cluster,תכלת זוהר,זוהר-תכלת(1).zip
+images/06_תכלת-זוהר.jpg,False,1,0.43,4,outside_selected_face_cluster,תכלת זוהר,זוהר-תכלת(1).zip
+images/07_תכלת-זוהר.png,True,1,1.0,4,face_cluster_passed,תכלת זוהר,זוהר-תכלת(1).zip
+images/10_תכלת-זוהר.jpg,True,1,1.0,4,face_cluster_passed,תכלת זוהר,זוהר-תכלת(1).zip
+images/12_תכלת-זוהר.jpg,True,1,1.0,4,face_cluster_passed,תכלת זוהר,זוהר-תכלת(1).zip
+images/02_תכלת-זוהר.jpg,False,0,,4,no_face_detected,תכלת זוהר,זוהר-תכלת(1).zip
+images/03_תכלת-זוהר.png,False,0,,4,no_face_detected,תכלת זוהר,זוהר-תכלת(1).zip
+images/04_תכלת-זוהר.jpg,False,0,,4,no_face_detected,תכלת זוהר,זוהר-תכלת(1).zip
+images/08_תכלת-זוהר.jpg,False,0,,4,no_face_detected,תכלת זוהר,זוהר-תכלת(1).zip
+images/09_תכלת-זוהר.png,False,0,,4,no_face_detected,תכלת זוהר,זוהר-תכלת(1).zip
+images/11_תכלת-זוהר.png,False,0,,4,no_face_detected,תכלת זוהר,זוהר-תכלת(1).zip
+images/01_איתן-זיו.jpg,True,1,1.0,3,face_cluster_passed,איתן זיו,זיו-איתן(1).zip
+images/03_איתן-זיו.jpg,True,1,1.0,3,face_cluster_passed,איתן זיו,זיו-איתן(1).zip
+images/07_איתן-זיו.webp,True,1,1.0,3,face_cluster_passed,איתן זיו,זיו-איתן(1).zip
+images/09_איתן-זיו.jpg,False,1,-0.001,3,outside_selected_face_cluster,איתן זיו,זיו-איתן(1).zip
+images/02_איתן-זיו.jpg,False,0,,3,no_face_detected,איתן זיו,זיו-איתן(1).zip
+images/04_איתן-זיו.png,False,0,,3,no_face_detected,איתן זיו,זיו-איתן(1).zip
+images/05_איתן-זיו.jpg,False,0,,3,no_face_detected,איתן זיו,זיו-איתן(1).zip
+images/06_איתן-זיו.jpg,False,0,,3,no_face_detected,איתן זיו,זיו-איתן(1).zip
+images/08_איתן-זיו.jpg,False,0,,3,no_face_detected,איתן זיו,זיו-איתן(1).zip
+images/10_איתן-זיו.jpg,False,0,,3,no_face_detected,איתן זיו,זיו-איתן(1).zip
+images/11_איתן-זיו.png,False,0,,3,no_face_detected,איתן זיו,זיו-איתן(1).zip
+images/12_איתן-זיו.jpg,False,0,,3,no_face_detected,איתן זיו,זיו-איתן(1).zip
+images/01_תמי-זיו-פלג.png,True,1,1.0,1,single_face_reference_only,תמי זיו פלג,זיו-פלג-תמי(1).zip
+images/02_תמי-זיו-פלג.png,False,1,-0.114,1,outside_selected_face_cluster,תמי זיו פלג,זיו-פלג-תמי(1).zip
+images/03_תמי-זיו-פלג.png,False,1,-0.007,1,outside_selected_face_cluster,תמי זיו פלג,זיו-פלג-תמי(1).zip
+images/11_תמי-זיו-פלג.jpg,False,1,0.066,1,outside_selected_face_cluster,תמי זיו פלג,זיו-פלג-תמי(1).zip
+images/12_תמי-זיו-פלג.jpg,False,4,-0.015,1,outside_selected_face_cluster,תמי זיו פלג,זיו-פלג-תמי(1).zip
+images/04_תמי-זיו-פלג.png,False,0,,1,no_face_detected,תמי זיו פלג,זיו-פלג-תמי(1).zip
+images/05_תמי-זיו-פלג.png,False,0,,1,no_face_detected,תמי זיו פלג,זיו-פלג-תמי(1).zip
+images/06_תמי-זיו-פלג.png,False,0,,1,no_face_detected,תמי זיו פלג,זיו-פלג-תמי(1).zip
+images/07_תמי-זיו-פלג.jpg,False,0,,1,no_face_detected,תמי זיו פלג,זיו-פלג-תמי(1).zip
+images/08_תמי-זיו-פלג.jpg,False,0,,1,no_face_detected,תמי זיו פלג,זיו-פלג-תמי(1).zip
+images/09_תמי-זיו-פלג.jpg,False,0,,1,no_face_detected,תמי זיו פלג,זיו-פלג-תמי(1).zip
+images/10_תמי-זיו-פלג.jpg,False,0,,1,no_face_detected,תמי זיו פלג,זיו-פלג-תמי(1).zip
+images/04_ניראל-זיני.jpg,True,3,1.0,1,single_face_reference_only,ניראל זיני,זיני-ניראל(1).zip
+images/05_ניראל-זיני.jpg,False,1,0.277,1,outside_selected_face_cluster,ניראל זיני,זיני-ניראל(1).zip
+images/06_ניראל-זיני.png,False,1,0.264,1,outside_selected_face_cluster,ניראל זיני,זיני-ניראל(1).zip
+images/09_ניראל-זיני.jpg,False,1,-0.17,1,outside_selected_face_cluster,ניראל זיני,זיני-ניראל(1).zip
+images/01_ניראל-זיני.jpg,False,0,,1,no_face_detected,ניראל זיני,זיני-ניראל(1).zip
+images/02_ניראל-זיני.png,False,0,,1,no_face_detected,ניראל זיני,זיני-ניראל(1).zip
+images/03_ניראל-זיני.jpg,False,0,,1,no_face_detected,ניראל זיני,זיני-ניראל(1).zip
+images/07_ניראל-זיני.jpg,False,0,,1,no_face_detected,ניראל זיני,זיני-ניראל(1).zip
+images/08_ניראל-זיני.png,False,0,,1,no_face_detected,ניראל זיני,זיני-ניראל(1).zip
+images/10_ניראל-זיני.png,False,0,,1,no_face_detected,ניראל זיני,זיני-ניראל(1).zip
+images/11_ניראל-זיני.png,False,0,,1,no_face_detected,ניראל זיני,זיני-ניראל(1).zip
+images/12_ניראל-זיני.png,False,0,,1,no_face_detected,ניראל זיני,זיני-ניראל(1).zip
+images/01_אליצור-צוריאל-חג-בי.jpg,True,1,1.0,1,single_face_reference_only,אליצור צוריאל חג'בי,חג-בי-אליצור-צוריאל(1).zip
+images/02_אליצור-צוריאל-חג-בי.png,False,1,0.483,1,outside_selected_face_cluster,אליצור צוריאל חג'בי,חג-בי-אליצור-צוריאל(1).zip
+images/03_אליצור-צוריאל-חג-בי.png,False,2,0.381,1,outside_selected_face_cluster,אליצור צוריאל חג'בי,חג-בי-אליצור-צוריאל(1).zip
+images/04_אליצור-צוריאל-חג-בי.jpg,False,1,0.159,1,outside_selected_face_cluster,אליצור צוריאל חג'בי,חג-בי-אליצור-צוריאל(1).zip
+images/07_אליצור-צוריאל-חג-בי.jpg,False,1,0.274,1,outside_selected_face_cluster,אליצור צוריאל חג'בי,חג-בי-אליצור-צוריאל(1).zip
+images/08_אליצור-צוריאל-חג-בי.jpg,False,2,-0.021,1,outside_selected_face_cluster,אליצור צוריאל חג'בי,חג-בי-אליצור-צוריאל(1).zip
+images/09_אליצור-צוריאל-חג-בי.jpg,False,2,-0.021,1,outside_selected_face_cluster,אליצור צוריאל חג'בי,חג-בי-אליצור-צוריאל(1).zip
+images/11_אליצור-צוריאל-חג-בי.jpg,False,2,0.087,1,outside_selected_face_cluster,אליצור צוריאל חג'בי,חג-בי-אליצור-צוריאל(1).zip
+images/05_אליצור-צוריאל-חג-בי.jpg,False,0,,1,no_face_detected,אליצור צוריאל חג'בי,חג-בי-אליצור-צוריאל(1).zip
+images/06_אליצור-צוריאל-חג-בי.jpg,False,0,,1,no_face_detected,אליצור צוריאל חג'בי,חג-בי-אליצור-צוריאל(1).zip
+images/10_אליצור-צוריאל-חג-בי.png,False,0,,1,no_face_detected,אליצור צוריאל חג'בי,חג-בי-אליצור-צוריאל(1).zip
+images/12_אליצור-צוריאל-חג-בי.jpg,False,0,,1,no_face_detected,אליצור צוריאל חג'בי,חג-בי-אליצור-צוריאל(1).zip
+images/01_זיו-חג-בי.jpg,True,1,1.0,1,single_face_reference_only,זיו חג'בי,חג-בי-זיו(1).zip
+images/02_זיו-חג-בי.jpg,False,1,0.091,1,outside_selected_face_cluster,זיו חג'בי,חג-בי-זיו(1).zip
+images/03_זיו-חג-בי.jpg,False,2,0.275,1,outside_selected_face_cluster,זיו חג'בי,חג-בי-זיו(1).zip
+images/04_זיו-חג-בי.jpg,False,2,0.049,1,outside_selected_face_cluster,זיו חג'בי,חג-בי-זיו(1).zip
+images/05_זיו-חג-בי.webp,False,3,0.104,1,outside_selected_face_cluster,זיו חג'בי,חג-בי-זיו(1).zip
+images/09_זיו-חג-בי.jpg,False,3,0.093,1,outside_selected_face_cluster,זיו חג'בי,חג-בי-זיו(1).zip
+images/10_זיו-חג-בי.jpg,False,1,0.258,1,outside_selected_face_cluster,זיו חג'בי,חג-בי-זיו(1).zip
+images/11_זיו-חג-בי.png,False,1,0.465,1,outside_selected_face_cluster,זיו חג'בי,חג-בי-זיו(1).zip
+images/06_זיו-חג-בי.jpg,False,0,,1,no_face_detected,זיו חג'בי,חג-בי-זיו(1).zip
+images/07_זיו-חג-בי.png,False,0,,1,no_face_detected,זיו חג'בי,חג-בי-זיו(1).zip
+images/08_זיו-חג-בי.jpg,False,0,,1,no_face_detected,זיו חג'בי,חג-בי-זיו(1).zip
+images/12_זיו-חג-בי.jpg,False,0,,1,no_face_detected,זיו חג'בי,חג-בי-זיו(1).zip
+images/01_יהונתן-חג-בי.jpg,True,2,1.0,2,face_cluster_passed,יהונתן חג'בי,חג-בי-יהונתן(1).zip
+images/02_יהונתן-חג-בי.jpg,False,2,0.232,2,outside_selected_face_cluster,יהונתן חג'בי,חג-בי-יהונתן(1).zip
+images/03_יהונתן-חג-בי.jpg,True,1,1.0,2,face_cluster_passed,יהונתן חג'בי,חג-בי-יהונתן(1).zip
+images/04_יהונתן-חג-בי.jpg,False,1,0.117,2,outside_selected_face_cluster,יהונתן חג'בי,חג-בי-יהונתן(1).zip
+images/07_יהונתן-חג-בי.jpg,False,1,0.268,2,outside_selected_face_cluster,יהונתן חג'בי,חג-בי-יהונתן(1).zip
+images/08_יהונתן-חג-בי.png,False,1,0.157,2,outside_selected_face_cluster,יהונתן חג'בי,חג-בי-יהונתן(1).zip
+images/09_יהונתן-חג-בי.jpg,False,4,0.139,2,outside_selected_face_cluster,יהונתן חג'בי,חג-בי-יהונתן(1).zip
+images/10_יהונתן-חג-בי.jpg,False,4,0.066,2,outside_selected_face_cluster,יהונתן חג'בי,חג-בי-יהונתן(1).zip
+images/11_יהונתן-חג-בי.jpg,False,2,0.11,2,outside_selected_face_cluster,יהונתן חג'בי,חג-בי-יהונתן(1).zip
+images/12_יהונתן-חג-בי.jpg,False,2,0.009,2,outside_selected_face_cluster,יהונתן חג'בי,חג-בי-יהונתן(1).zip
+images/05_יהונתן-חג-בי.jpg,False,0,,2,no_face_detected,יהונתן חג'בי,חג-בי-יהונתן(1).zip
+images/06_יהונתן-חג-בי.png,False,0,,2,no_face_detected,יהונתן חג'בי,חג-בי-יהונתן(1).zip
+images/01_יזהר-חג-בי.jpg,True,1,1.0,1,single_face_reference_only,יזהר חג'בי,חג-בי-יזהר(1).zip
+images/02_יזהר-חג-בי.webp,False,3,0.184,1,outside_selected_face_cluster,יזהר חג'בי,חג-בי-יזהר(1).zip
+images/03_יזהר-חג-בי.jpg,False,1,0.36,1,outside_selected_face_cluster,יזהר חג'בי,חג-בי-יזהר(1).zip
+images/04_יזהר-חג-בי.jpg,False,1,-0.123,1,outside_selected_face_cluster,יזהר חג'בי,חג-בי-יזהר(1).zip
+images/05_יזהר-חג-בי.jpg,False,2,-0.089,1,outside_selected_face_cluster,יזהר חג'בי,חג-בי-יזהר(1).zip
+images/07_יזהר-חג-בי.jpg,False,1,-0.058,1,outside_selected_face_cluster,יזהר חג'בי,חג-בי-יזהר(1).zip
+images/08_יזהר-חג-בי.jpg,False,1,-0.003,1,outside_selected_face_cluster,יזהר חג'בי,חג-בי-יזהר(1).zip
+images/09_יזהר-חג-בי.jpg,False,2,0.413,1,outside_selected_face_cluster,יזהר חג'בי,חג-בי-יזהר(1).zip
+images/10_יזהר-חג-בי.jpg,False,1,-0.068,1,outside_selected_face_cluster,יזהר חג'בי,חג-בי-יזהר(1).zip
+images/11_יזהר-חג-בי.jpg,False,2,0.111,1,outside_selected_face_cluster,יזהר חג'בי,חג-בי-יזהר(1).zip
+images/12_יזהר-חג-בי.jpg,False,2,0.106,1,outside_selected_face_cluster,יזהר חג'בי,חג-בי-יזהר(1).zip
+images/06_יזהר-חג-בי.jpg,False,0,,1,no_face_detected,יזהר חג'בי,חג-בי-יזהר(1).zip
+images/01_יותם-חיים.jpg,True,2,1.0,1,single_face_reference_only,יותם חיים,חיים-יותם(1).zip
+images/02_יותם-חיים.jpg,False,1,-0.366,1,outside_selected_face_cluster,יותם חיים,חיים-יותם(1).zip
+images/03_יותם-חיים.jpg,False,1,0.096,1,outside_selected_face_cluster,יותם חיים,חיים-יותם(1).zip
+images/04_יותם-חיים.jpg,False,2,0.138,1,outside_selected_face_cluster,יותם חיים,חיים-יותם(1).zip
+images/06_יותם-חיים.jpg,False,1,0.372,1,outside_selected_face_cluster,יותם חיים,חיים-יותם(1).zip
+images/07_יותם-חיים.webp,False,3,0.135,1,outside_selected_face_cluster,יותם חיים,חיים-יותם(1).zip
+images/08_יותם-חיים.webp,False,1,-0.023,1,outside_selected_face_cluster,יותם חיים,חיים-יותם(1).zip
+images/09_יותם-חיים.webp,False,1,0.255,1,outside_selected_face_cluster,יותם חיים,חיים-יותם(1).zip
+images/10_יותם-חיים.webp,False,1,-0.374,1,outside_selected_face_cluster,יותם חיים,חיים-יותם(1).zip
+images/11_יותם-חיים.jpg,False,2,0.015,1,outside_selected_face_cluster,יותם חיים,חיים-יותם(1).zip
+images/12_יותם-חיים.jpg,False,1,0.431,1,outside_selected_face_cluster,יותם חיים,חיים-יותם(1).zip
+images/05_יותם-חיים.jpg,False,0,,1,no_face_detected,יותם חיים,חיים-יותם(1).zip
+images/01_נאור-חסידים.jpg,True,3,1.0,3,face_cluster_passed,נאור חסידים,חסידים-נאור(1).zip
+images/02_נאור-חסידים.jpg,True,2,1.0,3,face_cluster_passed,נאור חסידים,חסידים-נאור(1).zip
+images/07_נאור-חסידים.jpg,False,6,0.474,3,outside_selected_face_cluster,נאור חסידים,חסידים-נאור(1).zip
+images/08_נאור-חסידים.jpg,False,1,0.459,3,outside_selected_face_cluster,נאור חסידים,חסידים-נאור(1).zip
+images/09_נאור-חסידים.jpg,False,1,0.313,3,outside_selected_face_cluster,נאור חסידים,חסידים-נאור(1).zip
+images/10_נאור-חסידים.jpg,True,5,1.0,3,face_cluster_passed,נאור חסידים,חסידים-נאור(1).zip
+images/11_נאור-חסידים.jpg,False,2,0.359,3,outside_selected_face_cluster,נאור חסידים,חסידים-נאור(1).zip
+images/12_נאור-חסידים.jpg,False,3,0.383,3,outside_selected_face_cluster,נאור חסידים,חסידים-נאור(1).zip
+images/03_נאור-חסידים.jpg,False,0,,3,no_face_detected,נאור חסידים,חסידים-נאור(1).zip
+images/04_נאור-חסידים.jpg,False,0,,3,no_face_detected,נאור חסידים,חסידים-נאור(1).zip
+images/05_נאור-חסידים.jpg,False,0,,3,no_face_detected,נאור חסידים,חסידים-נאור(1).zip
+images/06_נאור-חסידים.jpg,False,0,,3,no_face_detected,נאור חסידים,חסידים-נאור(1).zip
+images/01_עומר-חרמש.jpg,True,1,1.0,6,face_cluster_passed,עומר חרמש,חרמש-עומר(1).zip
+images/02_עומר-חרמש.jpg,True,1,1.0,6,face_cluster_passed,עומר חרמש,חרמש-עומר(1).zip
+images/03_עומר-חרמש.jpg,False,3,0.337,6,outside_selected_face_cluster,עומר חרמש,חרמש-עומר(1).zip
+images/04_עומר-חרמש.jpg,True,1,1.0,6,face_cluster_passed,עומר חרמש,חרמש-עומר(1).zip
+images/05_עומר-חרמש.jpg,True,2,1.0,6,face_cluster_passed,עומר חרמש,חרמש-עומר(1).zip
+images/07_עומר-חרמש.jpg,False,1,0.468,6,outside_selected_face_cluster,עומר חרמש,חרמש-עומר(1).zip
+images/08_עומר-חרמש.jpg,False,1,0.345,6,outside_selected_face_cluster,עומר חרמש,חרמש-עומר(1).zip
+images/09_עומר-חרמש.jpg,True,1,1.0,6,face_cluster_passed,עומר חרמש,חרמש-עומר(1).zip
+images/10_עומר-חרמש.jpg,True,1,1.0,6,face_cluster_passed,עומר חרמש,חרמש-עומר(1).zip
+images/06_עומר-חרמש.jpg,False,0,,6,no_face_detected,עומר חרמש,חרמש-עומר(1).zip
+images/11_עומר-חרמש.jpg,False,0,,6,no_face_detected,עומר חרמש,חרמש-עומר(1).zip
+images/12_עומר-חרמש.png,False,0,,6,no_face_detected,עומר חרמש,חרמש-עומר(1).zip
+images/02_חיים-ליבנה.jpg,True,2,1.0,1,single_face_reference_only,חיים ליבנה,ליבנה-חיים(1).zip
+images/04_חיים-ליבנה.jpg,False,9,-0.059,1,outside_selected_face_cluster,חיים ליבנה,ליבנה-חיים(1).zip
+images/09_חיים-ליבנה.jpg,False,3,0.125,1,outside_selected_face_cluster,חיים ליבנה,ליבנה-חיים(1).zip
+images/10_חיים-ליבנה.jpg,False,1,0.322,1,outside_selected_face_cluster,חיים ליבנה,ליבנה-חיים(1).zip
+images/11_חיים-ליבנה.png,False,1,0.225,1,outside_selected_face_cluster,חיים ליבנה,ליבנה-חיים(1).zip
+images/01_חיים-ליבנה.jpg,False,0,,1,no_face_detected,חיים ליבנה,ליבנה-חיים(1).zip
+images/03_חיים-ליבנה.jpg,False,0,,1,no_face_detected,חיים ליבנה,ליבנה-חיים(1).zip
+images/05_חיים-ליבנה.jpg,False,0,,1,no_face_detected,חיים ליבנה,ליבנה-חיים(1).zip
+images/06_חיים-ליבנה.jpg,False,0,,1,no_face_detected,חיים ליבנה,ליבנה-חיים(1).zip
+images/07_חיים-ליבנה.png,False,0,,1,no_face_detected,חיים ליבנה,ליבנה-חיים(1).zip
+images/08_חיים-ליבנה.jpg,False,0,,1,no_face_detected,חיים ליבנה,ליבנה-חיים(1).zip
+images/12_חיים-ליבנה.jpg,False,0,,1,no_face_detected,חיים ליבנה,ליבנה-חיים(1).zip
+images/01_אופיר-ליבשטיין.jpg,True,1,1.0,2,face_cluster_passed,אופיר ליבשטיין,ליבשטיין-אופיר(2).zip
+images/02_אופיר-ליבשטיין.jpg,True,1,1.0,2,face_cluster_passed,אופיר ליבשטיין,ליבשטיין-אופיר(2).zip
+images/03_אופיר-ליבשטיין.jpg,False,1,-0.358,2,outside_selected_face_cluster,אופיר ליבשטיין,ליבשטיין-אופיר(2).zip
+images/04_אופיר-ליבשטיין.jpg,False,4,-0.029,2,outside_selected_face_cluster,אופיר ליבשטיין,ליבשטיין-אופיר(2).zip
+images/08_אופיר-ליבשטיין.jpg,False,2,-0.178,2,outside_selected_face_cluster,אופיר ליבשטיין,ליבשטיין-אופיר(2).zip
+images/10_אופיר-ליבשטיין.jpg,False,6,-0.202,2,outside_selected_face_cluster,אופיר ליבשטיין,ליבשטיין-אופיר(2).zip
+images/11_אופיר-ליבשטיין.jpg,False,1,-0.216,2,outside_selected_face_cluster,אופיר ליבשטיין,ליבשטיין-אופיר(2).zip
+images/12_אופיר-ליבשטיין.jpg,False,1,0.031,2,outside_selected_face_cluster,אופיר ליבשטיין,ליבשטיין-אופיר(2).zip
+images/05_אופיר-ליבשטיין.jpg,False,0,,2,no_face_detected,אופיר ליבשטיין,ליבשטיין-אופיר(2).zip
+images/06_אופיר-ליבשטיין.jpg,False,0,,2,no_face_detected,אופיר ליבשטיין,ליבשטיין-אופיר(2).zip
+images/07_אופיר-ליבשטיין.jpg,False,0,,2,no_face_detected,אופיר ליבשטיין,ליבשטיין-אופיר(2).zip
+images/09_אופיר-ליבשטיין.jpg,False,0,,2,no_face_detected,אופיר ליבשטיין,ליבשטיין-אופיר(2).zip
+images/01_ניצן-ליבשטיין.jpg,True,1,1.0,2,face_cluster_passed,ניצן ליבשטיין,ליבשטיין-ניצן(2).zip
+images/02_ניצן-ליבשטיין.jpg,True,1,1.0,2,face_cluster_passed,ניצן ליבשטיין,ליבשטיין-ניצן(2).zip
+images/04_ניצן-ליבשטיין.jpg,False,1,0.115,2,outside_selected_face_cluster,ניצן ליבשטיין,ליבשטיין-ניצן(2).zip
+images/06_ניצן-ליבשטיין.jpg,False,1,-0.162,2,outside_selected_face_cluster,ניצן ליבשטיין,ליבשטיין-ניצן(2).zip
+images/11_ניצן-ליבשטיין.jpg,False,3,0.058,2,outside_selected_face_cluster,ניצן ליבשטיין,ליבשטיין-ניצן(2).zip
+images/12_ניצן-ליבשטיין.jpg,False,1,0.138,2,outside_selected_face_cluster,ניצן ליבשטיין,ליבשטיין-ניצן(2).zip
+images/03_ניצן-ליבשטיין.jpg,False,0,,2,no_face_detected,ניצן ליבשטיין,ליבשטיין-ניצן(2).zip
+images/05_ניצן-ליבשטיין.jpg,False,0,,2,no_face_detected,ניצן ליבשטיין,ליבשטיין-ניצן(2).zip
+images/07_ניצן-ליבשטיין.jpg,False,0,,2,no_face_detected,ניצן ליבשטיין,ליבשטיין-ניצן(2).zip
+images/08_ניצן-ליבשטיין.jpg,False,0,,2,no_face_detected,ניצן ליבשטיין,ליבשטיין-ניצן(2).zip
+images/09_ניצן-ליבשטיין.png,False,0,,2,no_face_detected,ניצן ליבשטיין,ליבשטיין-ניצן(2).zip
+images/10_ניצן-ליבשטיין.jpg,False,0,,2,no_face_detected,ניצן ליבשטיין,ליבשטיין-ניצן(2).zip
+images/01_ג-ושוע-לואיטו-מולל.jpg,True,1,1.0,5,face_cluster_passed,ג'ושוע לואיטו מולל,מולל-ג-ושוע-לואיטו(1).zip
+images/02_ג-ושוע-לואיטו-מולל.jpg,False,1,0.389,5,outside_selected_face_cluster,ג'ושוע לואיטו מולל,מולל-ג-ושוע-לואיטו(1).zip
+images/05_ג-ושוע-לואיטו-מולל.png,True,1,1.0,5,face_cluster_passed,ג'ושוע לואיטו מולל,מולל-ג-ושוע-לואיטו(1).zip
+images/06_ג-ושוע-לואיטו-מולל.png,False,1,-0.071,5,outside_selected_face_cluster,ג'ושוע לואיטו מולל,מולל-ג-ושוע-לואיטו(1).zip
+images/07_ג-ושוע-לואיטו-מולל.jpg,True,1,1.0,5,face_cluster_passed,ג'ושוע לואיטו מולל,מולל-ג-ושוע-לואיטו(1).zip
+images/08_ג-ושוע-לואיטו-מולל.webp,False,1,-0.076,5,outside_selected_face_cluster,ג'ושוע לואיטו מולל,מולל-ג-ושוע-לואיטו(1).zip
+images/09_ג-ושוע-לואיטו-מולל.jpg,False,2,-0.069,5,outside_selected_face_cluster,ג'ושוע לואיטו מולל,מולל-ג-ושוע-לואיטו(1).zip
+images/11_ג-ושוע-לואיטו-מולל.jpg,True,1,1.0,5,face_cluster_passed,ג'ושוע לואיטו מולל,מולל-ג-ושוע-לואיטו(1).zip
+images/12_ג-ושוע-לואיטו-מולל.jpg,True,1,1.0,5,face_cluster_passed,ג'ושוע לואיטו מולל,מולל-ג-ושוע-לואיטו(1).zip
+images/03_ג-ושוע-לואיטו-מולל.webp,False,0,,5,no_face_detected,ג'ושוע לואיטו מולל,מולל-ג-ושוע-לואיטו(1).zip
+images/04_ג-ושוע-לואיטו-מולל.png,False,0,,5,no_face_detected,ג'ושוע לואיטו מולל,מולל-ג-ושוע-לואיטו(1).zip
+images/10_ג-ושוע-לואיטו-מולל.jpg,False,0,,5,no_face_detected,ג'ושוע לואיטו מולל,מולל-ג-ושוע-לואיטו(1).zip
+images/01_אמיר-נעים.jpg,True,1,1.0,1,single_face_reference_only,אמיר נעים,נעים-אמיר(1).zip
+images/03_אמיר-נעים.jpg,False,1,-0.129,1,outside_selected_face_cluster,אמיר נעים,נעים-אמיר(1).zip
+images/06_אמיר-נעים.jpg,False,3,-0.318,1,outside_selected_face_cluster,אמיר נעים,נעים-אמיר(1).zip
+images/07_אמיר-נעים.jpg,False,1,0.041,1,outside_selected_face_cluster,אמיר נעים,נעים-אמיר(1).zip
+images/08_אמיר-נעים.png,False,1,-0.301,1,outside_selected_face_cluster,אמיר נעים,נעים-אמיר(1).zip
+images/10_אמיר-נעים.jpg,False,2,0.065,1,outside_selected_face_cluster,אמיר נעים,נעים-אמיר(1).zip
+images/02_אמיר-נעים.jpg,False,0,,1,no_face_detected,אמיר נעים,נעים-אמיר(1).zip
+images/04_אמיר-נעים.png,False,0,,1,no_face_detected,אמיר נעים,נעים-אמיר(1).zip
+images/05_אמיר-נעים.jpg,False,0,,1,no_face_detected,אמיר נעים,נעים-אמיר(1).zip
+images/09_אמיר-נעים.jpg,False,0,,1,no_face_detected,אמיר נעים,נעים-אמיר(1).zip
+images/11_אמיר-נעים.jpg,False,0,,1,no_face_detected,אמיר נעים,נעים-אמיר(1).zip
+images/12_אמיר-נעים.jpg,False,0,,1,no_face_detected,אמיר נעים,נעים-אמיר(1).zip
+images/01_פלג-סלאם.jpg,True,1,1.0,1,single_face_reference_only,פלג סלאם,סלאם-פלג(1).zip
+images/04_פלג-סלאם.jpg,False,2,0.068,1,outside_selected_face_cluster,פלג סלאם,סלאם-פלג(1).zip
+images/05_פלג-סלאם.jpg,False,1,0.176,1,outside_selected_face_cluster,פלג סלאם,סלאם-פלג(1).zip
+images/06_פלג-סלאם.jpg,False,2,0.106,1,outside_selected_face_cluster,פלג סלאם,סלאם-פלג(1).zip
+images/07_פלג-סלאם.jpg,False,1,0.008,1,outside_selected_face_cluster,פלג סלאם,סלאם-פלג(1).zip
+images/10_פלג-סלאם.jpg,False,2,-0.048,1,outside_selected_face_cluster,פלג סלאם,סלאם-פלג(1).zip
+images/02_פלג-סלאם.jpg,False,0,,1,no_face_detected,פלג סלאם,סלאם-פלג(1).zip
+images/03_פלג-סלאם.jpg,False,0,,1,no_face_detected,פלג סלאם,סלאם-פלג(1).zip
+images/08_פלג-סלאם.jpg,False,0,,1,no_face_detected,פלג סלאם,סלאם-פלג(1).zip
+images/09_פלג-סלאם.jpg,False,0,,1,no_face_detected,פלג סלאם,סלאם-פלג(1).zip
+images/11_פלג-סלאם.jpg,False,0,,1,no_face_detected,פלג סלאם,סלאם-פלג(1).zip
+images/12_פלג-סלאם.jpg,False,0,,1,no_face_detected,פלג סלאם,סלאם-פלג(1).zip

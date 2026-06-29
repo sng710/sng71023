@@ -1,0 +1,189 @@
+﻿image,kept,face_count,similarity,cluster_size,reason,person,zip
+images/01_יפתח-קוץ.jpg,True,1,1.0,3,face_cluster_passed,יפתח קוץ,קוץ-יפתח(1).zip
+images/05_יפתח-קוץ.jpg,False,3,0.434,3,outside_selected_face_cluster,יפתח קוץ,קוץ-יפתח(1).zip
+images/06_יפתח-קוץ.jpg,False,1,0.472,3,outside_selected_face_cluster,יפתח קוץ,קוץ-יפתח(1).zip
+images/07_יפתח-קוץ.png,True,1,1.0,3,face_cluster_passed,יפתח קוץ,קוץ-יפתח(1).zip
+images/10_יפתח-קוץ.jpg,True,1,1.0,3,face_cluster_passed,יפתח קוץ,קוץ-יפתח(1).zip
+images/02_יפתח-קוץ.jpg,False,0,,3,no_face_detected,יפתח קוץ,קוץ-יפתח(1).zip
+images/03_יפתח-קוץ.png,False,0,,3,no_face_detected,יפתח קוץ,קוץ-יפתח(1).zip
+images/04_יפתח-קוץ.jpg,False,0,,3,no_face_detected,יפתח קוץ,קוץ-יפתח(1).zip
+images/08_יפתח-קוץ.jpg,False,0,,3,no_face_detected,יפתח קוץ,קוץ-יפתח(1).zip
+images/09_יפתח-קוץ.png,False,0,,3,no_face_detected,יפתח קוץ,קוץ-יפתח(1).zip
+images/11_יפתח-קוץ.png,False,0,,3,no_face_detected,יפתח קוץ,קוץ-יפתח(1).zip
+images/12_יפתח-קוץ.jpg,False,0,,3,no_face_detected,יפתח קוץ,קוץ-יפתח(1).zip
+images/05_ליבנת-קוץ.jpg,False,1,-0.165,2,outside_selected_face_cluster,ליבנת קוץ,קוץ-ליבנת(1).zip
+images/07_ליבנת-קוץ.jpg,False,1,0.088,2,outside_selected_face_cluster,ליבנת קוץ,קוץ-ליבנת(1).zip
+images/08_ליבנת-קוץ.jpg,True,1,1.0,2,face_cluster_passed,ליבנת קוץ,קוץ-ליבנת(1).zip
+images/09_ליבנת-קוץ.jpg,False,1,0.262,2,outside_selected_face_cluster,ליבנת קוץ,קוץ-ליבנת(1).zip
+images/11_ליבנת-קוץ.jpg,True,1,1.0,2,face_cluster_passed,ליבנת קוץ,קוץ-ליבנת(1).zip
+images/01_ליבנת-קוץ.png,False,0,,2,no_face_detected,ליבנת קוץ,קוץ-ליבנת(1).zip
+images/02_ליבנת-קוץ.jpg,False,0,,2,no_face_detected,ליבנת קוץ,קוץ-ליבנת(1).zip
+images/03_ליבנת-קוץ.jpg,False,0,,2,no_face_detected,ליבנת קוץ,קוץ-ליבנת(1).zip
+images/04_ליבנת-קוץ.jpg,False,0,,2,no_face_detected,ליבנת קוץ,קוץ-ליבנת(1).zip
+images/06_ליבנת-קוץ.jpg,False,0,,2,no_face_detected,ליבנת קוץ,קוץ-ליבנת(1).zip
+images/10_ליבנת-קוץ.jpg,False,0,,2,no_face_detected,ליבנת קוץ,קוץ-ליבנת(1).zip
+images/12_ליבנת-קוץ.jpg,False,0,,2,no_face_detected,ליבנת קוץ,קוץ-ליבנת(1).zip
+images/03_רותם-קוץ.jpg,False,5,0.474,2,outside_selected_face_cluster,רותם קוץ,קוץ-רותם(2).zip
+images/05_רותם-קוץ.jpg,True,6,1.0,2,face_cluster_passed,רותם קוץ,קוץ-רותם(2).zip
+images/06_רותם-קוץ.jpg,True,1,1.0,2,face_cluster_passed,רותם קוץ,קוץ-רותם(2).zip
+images/07_רותם-קוץ.jpg,False,1,0.183,2,outside_selected_face_cluster,רותם קוץ,קוץ-רותם(2).zip
+images/08_רותם-קוץ.jpg,False,2,0.441,2,outside_selected_face_cluster,רותם קוץ,קוץ-רותם(2).zip
+images/09_רותם-קוץ.jpg,False,3,0.111,2,outside_selected_face_cluster,רותם קוץ,קוץ-רותם(2).zip
+images/10_רותם-קוץ.jpg,False,1,0.449,2,outside_selected_face_cluster,רותם קוץ,קוץ-רותם(2).zip
+images/11_רותם-קוץ.jpg,False,1,0.221,2,outside_selected_face_cluster,רותם קוץ,קוץ-רותם(2).zip
+images/12_רותם-קוץ.jpg,False,1,-0.202,2,outside_selected_face_cluster,רותם קוץ,קוץ-רותם(2).zip
+images/01_רותם-קוץ.jpg,False,0,,2,no_face_detected,רותם קוץ,קוץ-רותם(2).zip
+images/02_רותם-קוץ.jpg,False,0,,2,no_face_detected,רותם קוץ,קוץ-רותם(2).zip
+images/04_רותם-קוץ.jpg,False,0,,2,no_face_detected,רותם קוץ,קוץ-רותם(2).zip
+images/01_דוד-קציר.jpg,True,1,1.0,2,face_cluster_passed,דוד קציר,קציר-דוד(1).zip
+images/02_דוד-קציר.jpg,True,1,1.0,2,face_cluster_passed,דוד קציר,קציר-דוד(1).zip
+images/06_דוד-קציר.jpg,False,6,0.11,2,outside_selected_face_cluster,דוד קציר,קציר-דוד(1).zip
+images/07_דוד-קציר.jpg,False,1,0.183,2,outside_selected_face_cluster,דוד קציר,קציר-דוד(1).zip
+images/08_דוד-קציר.jpg,False,5,0.313,2,outside_selected_face_cluster,דוד קציר,קציר-דוד(1).zip
+images/09_דוד-קציר.jpg,False,2,0.171,2,outside_selected_face_cluster,דוד קציר,קציר-דוד(1).zip
+images/10_דוד-קציר.jpg,False,3,0.358,2,outside_selected_face_cluster,דוד קציר,קציר-דוד(1).zip
+images/11_דוד-קציר.jpg,False,1,0.177,2,outside_selected_face_cluster,דוד קציר,קציר-דוד(1).zip
+images/12_דוד-קציר.jpg,False,1,0.486,2,outside_selected_face_cluster,דוד קציר,קציר-דוד(1).zip
+images/03_דוד-קציר.jpg,False,0,,2,no_face_detected,דוד קציר,קציר-דוד(1).zip
+images/04_דוד-קציר.jpg,False,0,,2,no_face_detected,דוד קציר,קציר-דוד(1).zip
+images/05_דוד-קציר.jpg,False,0,,2,no_face_detected,דוד קציר,קציר-דוד(1).zip
+images/01_צחי-עידן.jpg,True,2,1.0,1,single_face_reference_only,צחי עידן,עידן-צחי(1).zip
+images/03_צחי-עידן.jpg,False,1,0.266,1,outside_selected_face_cluster,צחי עידן,עידן-צחי(1).zip
+images/04_צחי-עידן.jpg,False,2,0.345,1,outside_selected_face_cluster,צחי עידן,עידן-צחי(1).zip
+images/05_צחי-עידן.jpg,False,1,-0.117,1,outside_selected_face_cluster,צחי עידן,עידן-צחי(1).zip
+images/06_צחי-עידן.jpg,False,1,0.055,1,outside_selected_face_cluster,צחי עידן,עידן-צחי(1).zip
+images/07_צחי-עידן.jpg,False,1,0.23,1,outside_selected_face_cluster,צחי עידן,עידן-צחי(1).zip
+images/09_צחי-עידן.jpg,False,2,-0.163,1,outside_selected_face_cluster,צחי עידן,עידן-צחי(1).zip
+images/10_צחי-עידן.jpg,False,1,0.359,1,outside_selected_face_cluster,צחי עידן,עידן-צחי(1).zip
+images/12_צחי-עידן.jpg,False,1,0.267,1,outside_selected_face_cluster,צחי עידן,עידן-צחי(1).zip
+images/02_צחי-עידן.jpg,False,0,,1,no_face_detected,צחי עידן,עידן-צחי(1).zip
+images/08_צחי-עידן.jpg,False,0,,1,no_face_detected,צחי עידן,עידן-צחי(1).zip
+images/11_צחי-עידן.jpg,False,0,,1,no_face_detected,צחי עידן,עידן-צחי(1).zip
+images/01_רועי-עידן.jpg,True,2,1.0,1,single_face_reference_only,רועי עידן,עידן-רועי(1).zip
+images/02_רועי-עידן.jpg,False,2,0.122,1,outside_selected_face_cluster,רועי עידן,עידן-רועי(1).zip
+images/04_רועי-עידן.jpg,False,1,0.238,1,outside_selected_face_cluster,רועי עידן,עידן-רועי(1).zip
+images/08_רועי-עידן.jpg,False,6,0.259,1,outside_selected_face_cluster,רועי עידן,עידן-רועי(1).zip
+images/09_רועי-עידן.jpg,False,1,0.441,1,outside_selected_face_cluster,רועי עידן,עידן-רועי(1).zip
+images/10_רועי-עידן.jpg,False,1,0.171,1,outside_selected_face_cluster,רועי עידן,עידן-רועי(1).zip
+images/11_רועי-עידן.jpg,False,5,0.178,1,outside_selected_face_cluster,רועי עידן,עידן-רועי(1).zip
+images/12_רועי-עידן.jpg,False,3,0.234,1,outside_selected_face_cluster,רועי עידן,עידן-רועי(1).zip
+images/03_רועי-עידן.jpg,False,0,,1,no_face_detected,רועי עידן,עידן-רועי(1).zip
+images/05_רועי-עידן.jpg,False,0,,1,no_face_detected,רועי עידן,עידן-רועי(1).zip
+images/06_רועי-עידן.jpg,False,0,,1,no_face_detected,רועי עידן,עידן-רועי(1).zip
+images/07_רועי-עידן.jpg,False,0,,1,no_face_detected,רועי עידן,עידן-רועי(1).zip
+images/01_נדב-עמיקם.jpg,True,1,1.0,3,face_cluster_passed,נדב עמיקם,עמיקם-נדב(1).zip
+images/02_נדב-עמיקם.jpg,True,1,1.0,3,face_cluster_passed,נדב עמיקם,עמיקם-נדב(1).zip
+images/03_נדב-עמיקם.jpg,True,1,1.0,3,face_cluster_passed,נדב עמיקם,עמיקם-נדב(1).zip
+images/04_נדב-עמיקם.jpg,False,1,-0.312,3,outside_selected_face_cluster,נדב עמיקם,עמיקם-נדב(1).zip
+images/05_נדב-עמיקם.jpg,False,1,-0.293,3,outside_selected_face_cluster,נדב עמיקם,עמיקם-נדב(1).zip
+images/06_נדב-עמיקם.png,False,1,-0.317,3,outside_selected_face_cluster,נדב עמיקם,עמיקם-נדב(1).zip
+images/07_נדב-עמיקם.jpg,False,1,-0.316,3,outside_selected_face_cluster,נדב עמיקם,עמיקם-נדב(1).zip
+images/08_נדב-עמיקם.jpg,False,1,-0.367,3,outside_selected_face_cluster,נדב עמיקם,עמיקם-נדב(1).zip
+images/11_נדב-עמיקם.jpg,False,3,0.435,3,outside_selected_face_cluster,נדב עמיקם,עמיקם-נדב(1).zip
+images/12_נדב-עמיקם.jpg,False,2,0.337,3,outside_selected_face_cluster,נדב עמיקם,עמיקם-נדב(1).zip
+images/09_נדב-עמיקם.png,False,0,,3,no_face_detected,נדב עמיקם,עמיקם-נדב(1).zip
+images/10_נדב-עמיקם.jpg,False,0,,3,no_face_detected,נדב עמיקם,עמיקם-נדב(1).zip
+images/01_תומר-ערבה-אליעז.jpg,True,3,1.0,1,single_face_reference_only,תומר ערבה אליעז,ערבה-אליעז-תומר(1).zip
+images/02_תומר-ערבה-אליעז.jpg,False,1,0.212,1,outside_selected_face_cluster,תומר ערבה אליעז,ערבה-אליעז-תומר(1).zip
+images/04_תומר-ערבה-אליעז.jpg,False,3,0.122,1,outside_selected_face_cluster,תומר ערבה אליעז,ערבה-אליעז-תומר(1).zip
+images/06_תומר-ערבה-אליעז.jpg,False,1,0.427,1,outside_selected_face_cluster,תומר ערבה אליעז,ערבה-אליעז-תומר(1).zip
+images/07_תומר-ערבה-אליעז.jpg,False,1,0.379,1,outside_selected_face_cluster,תומר ערבה אליעז,ערבה-אליעז-תומר(1).zip
+images/10_תומר-ערבה-אליעז.jpg,False,1,0.07,1,outside_selected_face_cluster,תומר ערבה אליעז,ערבה-אליעז-תומר(1).zip
+images/11_תומר-ערבה-אליעז.jpg,False,1,0.493,1,outside_selected_face_cluster,תומר ערבה אליעז,ערבה-אליעז-תומר(1).zip
+images/12_תומר-ערבה-אליעז.jpg,False,1,0.472,1,outside_selected_face_cluster,תומר ערבה אליעז,ערבה-אליעז-תומר(1).zip
+images/03_תומר-ערבה-אליעז.jpg,False,0,,1,no_face_detected,תומר ערבה אליעז,ערבה-אליעז-תומר(1).zip
+images/05_תומר-ערבה-אליעז.jpg,False,0,,1,no_face_detected,תומר ערבה אליעז,ערבה-אליעז-תומר(1).zip
+images/08_תומר-ערבה-אליעז.jpg,False,0,,1,no_face_detected,תומר ערבה אליעז,ערבה-אליעז-תומר(1).zip
+images/09_תומר-ערבה-אליעז.jpg,False,0,,1,no_face_detected,תומר ערבה אליעז,ערבה-אליעז-תומר(1).zip
+images/04_דקלה-ערבה.jpg,False,3,0.41,3,outside_selected_face_cluster,דקלה ערבה,ערבה-דקלה(1).zip
+images/05_דקלה-ערבה.jpg,False,1,0.452,3,outside_selected_face_cluster,דקלה ערבה,ערבה-דקלה(1).zip
+images/06_דקלה-ערבה.png,True,1,1.0,3,face_cluster_passed,דקלה ערבה,ערבה-דקלה(1).zip
+images/09_דקלה-ערבה.jpg,True,1,1.0,3,face_cluster_passed,דקלה ערבה,ערבה-דקלה(1).zip
+images/11_דקלה-ערבה.jpg,False,5,-0.235,3,outside_selected_face_cluster,דקלה ערבה,ערבה-דקלה(1).zip
+images/12_דקלה-ערבה.jpg,True,1,1.0,3,face_cluster_passed,דקלה ערבה,ערבה-דקלה(1).zip
+images/01_דקלה-ערבה.jpg,False,0,,3,no_face_detected,דקלה ערבה,ערבה-דקלה(1).zip
+images/02_דקלה-ערבה.png,False,0,,3,no_face_detected,דקלה ערבה,ערבה-דקלה(1).zip
+images/03_דקלה-ערבה.jpg,False,0,,3,no_face_detected,דקלה ערבה,ערבה-דקלה(1).zip
+images/07_דקלה-ערבה.jpg,False,0,,3,no_face_detected,דקלה ערבה,ערבה-דקלה(1).zip
+images/08_דקלה-ערבה.png,False,0,,3,no_face_detected,דקלה ערבה,ערבה-דקלה(1).zip
+images/10_דקלה-ערבה.png,False,0,,3,no_face_detected,דקלה ערבה,ערבה-דקלה(1).zip
+images/01_רן-פוסלושני.jpg,True,5,1.0,2,face_cluster_passed,רן פוסלושני,פוסלושני-רן(1).zip
+images/02_רן-פוסלושני.jpg,True,5,1.0,2,face_cluster_passed,רן פוסלושני,פוסלושני-רן(1).zip
+images/10_רן-פוסלושני.jpg,False,3,0.053,2,outside_selected_face_cluster,רן פוסלושני,פוסלושני-רן(1).zip
+images/11_רן-פוסלושני.jpg,False,1,0.056,2,outside_selected_face_cluster,רן פוסלושני,פוסלושני-רן(1).zip
+images/12_רן-פוסלושני.png,False,1,-0.294,2,outside_selected_face_cluster,רן פוסלושני,פוסלושני-רן(1).zip
+images/03_רן-פוסלושני.jpg,False,0,,2,no_face_detected,רן פוסלושני,פוסלושני-רן(1).zip
+images/04_רן-פוסלושני.jpg,False,0,,2,no_face_detected,רן פוסלושני,פוסלושני-רן(1).zip
+images/05_רן-פוסלושני.jpg,False,0,,2,no_face_detected,רן פוסלושני,פוסלושני-רן(1).zip
+images/06_רן-פוסלושני.png,False,0,,2,no_face_detected,רן פוסלושני,פוסלושני-רן(1).zip
+images/07_רן-פוסלושני.jpg,False,0,,2,no_face_detected,רן פוסלושני,פוסלושני-רן(1).zip
+images/08_רן-פוסלושני.png,False,0,,2,no_face_detected,רן פוסלושני,פוסלושני-רן(1).zip
+images/09_רן-פוסלושני.jpg,False,0,,2,no_face_detected,רן פוסלושני,פוסלושני-רן(1).zip
+images/01_אילן-פיורנטינו.jpg,True,1,1.0,1,single_face_reference_only,אילן פיורנטינו,פיורנטינו-אילן(1).zip
+images/02_אילן-פיורנטינו.jpg,False,1,0.034,1,outside_selected_face_cluster,אילן פיורנטינו,פיורנטינו-אילן(1).zip
+images/04_אילן-פיורנטינו.jpg,False,3,0.136,1,outside_selected_face_cluster,אילן פיורנטינו,פיורנטינו-אילן(1).zip
+images/06_אילן-פיורנטינו.jpg,False,1,0.137,1,outside_selected_face_cluster,אילן פיורנטינו,פיורנטינו-אילן(1).zip
+images/07_אילן-פיורנטינו.jpg,False,1,0.429,1,outside_selected_face_cluster,אילן פיורנטינו,פיורנטינו-אילן(1).zip
+images/10_אילן-פיורנטינו.jpg,False,1,-0.197,1,outside_selected_face_cluster,אילן פיורנטינו,פיורנטינו-אילן(1).zip
+images/11_אילן-פיורנטינו.jpg,False,1,0.22,1,outside_selected_face_cluster,אילן פיורנטינו,פיורנטינו-אילן(1).zip
+images/12_אילן-פיורנטינו.jpg,False,1,0.244,1,outside_selected_face_cluster,אילן פיורנטינו,פיורנטינו-אילן(1).zip
+images/03_אילן-פיורנטינו.jpg,False,0,,1,no_face_detected,אילן פיורנטינו,פיורנטינו-אילן(1).zip
+images/05_אילן-פיורנטינו.jpg,False,0,,1,no_face_detected,אילן פיורנטינו,פיורנטינו-אילן(1).zip
+images/08_אילן-פיורנטינו.jpg,False,0,,1,no_face_detected,אילן פיורנטינו,פיורנטינו-אילן(1).zip
+images/09_אילן-פיורנטינו.jpg,False,0,,1,no_face_detected,אילן פיורנטינו,פיורנטינו-אילן(1).zip
+images/01_גילה-פלד.jpg,True,1,1.0,3,face_cluster_passed,גילה פלד,פלד-גילה(1).zip
+images/02_גילה-פלד.jpg,False,1,0.202,3,outside_selected_face_cluster,גילה פלד,פלד-גילה(1).zip
+images/03_גילה-פלד.jpg,True,1,1.0,3,face_cluster_passed,גילה פלד,פלד-גילה(1).zip
+images/04_גילה-פלד.jpg,False,1,0.348,3,outside_selected_face_cluster,גילה פלד,פלד-גילה(1).zip
+images/05_גילה-פלד.jpg,False,2,-0.004,3,outside_selected_face_cluster,גילה פלד,פלד-גילה(1).zip
+images/06_גילה-פלד.jpg,False,1,0.2,3,outside_selected_face_cluster,גילה פלד,פלד-גילה(1).zip
+images/07_גילה-פלד.jpg,False,1,0.447,3,outside_selected_face_cluster,גילה פלד,פלד-גילה(1).zip
+images/08_גילה-פלד.jpg,True,1,1.0,3,face_cluster_passed,גילה פלד,פלד-גילה(1).zip
+images/09_גילה-פלד.jpg,False,1,0.377,3,outside_selected_face_cluster,גילה פלד,פלד-גילה(1).zip
+images/10_גילה-פלד.jpg,False,0,,3,no_face_detected,גילה פלד,פלד-גילה(1).zip
+images/11_גילה-פלד.jpg,False,0,,3,no_face_detected,גילה פלד,פלד-גילה(1).zip
+images/12_גילה-פלד.png,False,0,,3,no_face_detected,גילה פלד,פלד-גילה(1).zip
+images/01_דניאל-פלד.jpg,True,1,1.0,2,face_cluster_passed,דניאל פלד,פלד-דניאל(1).zip
+images/02_דניאל-פלד.jpg,False,1,0.234,2,outside_selected_face_cluster,דניאל פלד,פלד-דניאל(1).zip
+images/03_דניאל-פלד.jpg,False,1,-0.017,2,outside_selected_face_cluster,דניאל פלד,פלד-דניאל(1).zip
+images/04_דניאל-פלד.jpg,True,2,1.0,2,face_cluster_passed,דניאל פלד,פלד-דניאל(1).zip
+images/05_דניאל-פלד.jpg,False,1,0.194,2,outside_selected_face_cluster,דניאל פלד,פלד-דניאל(1).zip
+images/09_דניאל-פלד.jpg,False,3,-0.117,2,outside_selected_face_cluster,דניאל פלד,פלד-דניאל(1).zip
+images/10_דניאל-פלד.jpg,False,1,-0.103,2,outside_selected_face_cluster,דניאל פלד,פלד-דניאל(1).zip
+images/11_דניאל-פלד.png,False,1,-0.459,2,outside_selected_face_cluster,דניאל פלד,פלד-דניאל(1).zip
+images/06_דניאל-פלד.jpg,False,0,,2,no_face_detected,דניאל פלד,פלד-דניאל(1).zip
+images/07_דניאל-פלד.png,False,0,,2,no_face_detected,דניאל פלד,פלד-דניאל(1).zip
+images/08_דניאל-פלד.jpg,False,0,,2,no_face_detected,דניאל פלד,פלד-דניאל(1).zip
+images/12_דניאל-פלד.jpg,False,0,,2,no_face_detected,דניאל פלד,פלד-דניאל(1).zip
+images/01_יזהר-פלד.jpg,True,2,1.0,2,face_cluster_passed,יזהר פלד,פלד-יזהר(1).zip
+images/02_יזהר-פלד.jpg,False,1,0.036,2,outside_selected_face_cluster,יזהר פלד,פלד-יזהר(1).zip
+images/03_יזהר-פלד.jpg,True,2,1.0,2,face_cluster_passed,יזהר פלד,פלד-יזהר(1).zip
+images/04_יזהר-פלד.jpg,False,1,0.043,2,outside_selected_face_cluster,יזהר פלד,פלד-יזהר(1).zip
+images/09_יזהר-פלד.jpg,False,3,-0.123,2,outside_selected_face_cluster,יזהר פלד,פלד-יזהר(1).zip
+images/10_יזהר-פלד.jpg,False,1,-0.093,2,outside_selected_face_cluster,יזהר פלד,פלד-יזהר(1).zip
+images/11_יזהר-פלד.png,False,1,-0.465,2,outside_selected_face_cluster,יזהר פלד,פלד-יזהר(1).zip
+images/05_יזהר-פלד.jpg,False,0,,2,no_face_detected,יזהר פלד,פלד-יזהר(1).zip
+images/06_יזהר-פלד.jpg,False,0,,2,no_face_detected,יזהר פלד,פלד-יזהר(1).zip
+images/07_יזהר-פלד.png,False,0,,2,no_face_detected,יזהר פלד,פלד-יזהר(1).zip
+images/08_יזהר-פלד.jpg,False,0,,2,no_face_detected,יזהר פלד,פלד-יזהר(1).zip
+images/12_יזהר-פלד.jpg,False,0,,2,no_face_detected,יזהר פלד,פלד-יזהר(1).zip
+images/01_יגאל-פלש.jpg,True,1,1.0,1,single_face_reference_only,יגאל פלש,פלש-יגאל(1).zip
+images/06_יגאל-פלש.jpg,False,6,0.28,1,outside_selected_face_cluster,יגאל פלש,פלש-יגאל(1).zip
+images/07_יגאל-פלש.jpg,False,1,0.235,1,outside_selected_face_cluster,יגאל פלש,פלש-יגאל(1).zip
+images/08_יגאל-פלש.jpg,False,1,0.235,1,outside_selected_face_cluster,יגאל פלש,פלש-יגאל(1).zip
+images/09_יגאל-פלש.jpg,False,5,0.334,1,outside_selected_face_cluster,יגאל פלש,פלש-יגאל(1).zip
+images/10_יגאל-פלש.jpg,False,2,0.158,1,outside_selected_face_cluster,יגאל פלש,פלש-יגאל(1).zip
+images/11_יגאל-פלש.jpg,False,3,0.336,1,outside_selected_face_cluster,יגאל פלש,פלש-יגאל(1).zip
+images/12_יגאל-פלש.jpg,False,1,0.13,1,outside_selected_face_cluster,יגאל פלש,פלש-יגאל(1).zip
+images/02_יגאל-פלש.jpg,False,0,,1,no_face_detected,יגאל פלש,פלש-יגאל(1).zip
+images/03_יגאל-פלש.jpg,False,0,,1,no_face_detected,יגאל פלש,פלש-יגאל(1).zip
+images/04_יגאל-פלש.jpg,False,0,,1,no_face_detected,יגאל פלש,פלש-יגאל(1).zip
+images/05_יגאל-פלש.jpg,False,0,,1,no_face_detected,יגאל פלש,פלש-יגאל(1).zip
+images/01_סינתיה-תמר-פלש.jpg,True,1,1.0,1,single_face_reference_only,סינתיה תמר פלש,פלש-סינתיה-תמר(1).zip
+images/03_פנסה-ארד-סומקואן.jpg,True,1,1.0,2,face_cluster_passed,פנסה ארד סומקואן,פנסה-ארד-סומקואן(1).zip
+images/05_פנסה-ארד-סומקואן.jpg,False,1,0.172,2,outside_selected_face_cluster,פנסה ארד סומקואן,פנסה-ארד-סומקואן(1).zip
+images/06_פנסה-ארד-סומקואן.jpg,True,1,1.0,2,face_cluster_passed,פנסה ארד סומקואן,פנסה-ארד-סומקואן(1).zip
+images/01_פנסה-ארד-סומקואן.jpg,False,0,,2,no_face_detected,פנסה ארד סומקואן,פנסה-ארד-סומקואן(1).zip
+images/02_פנסה-ארד-סומקואן.jpg,False,0,,2,no_face_detected,פנסה ארד סומקואן,פנסה-ארד-סומקואן(1).zip
+images/04_פנסה-ארד-סומקואן.jpg,False,0,,2,no_face_detected,פנסה ארד סומקואן,פנסה-ארד-סומקואן(1).zip
+images/07_פנסה-ארד-סומקואן.jpg,False,0,,2,no_face_detected,פנסה ארד סומקואן,פנסה-ארד-סומקואן(1).zip
